@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Mail, Phone, MapPin, Heart, Eye } from 'lucide-react'
+import { Heart, Eye } from 'lucide-react'
 import { db } from '../../lib/firebase'
 import { doc, onSnapshot } from 'firebase/firestore'
 
@@ -36,20 +36,6 @@ export default function Footer() {
               Reconnecting the brothers of Lasan Taberd across continents, generations, and decades.
               Saigon is in our hearts forever.
             </p>
-            <div className="mt-5 space-y-2">
-              <div className="flex items-center gap-2 text-slate-400 text-sm">
-                <MapPin size={14} className="text-sky-400 flex-shrink-0" />
-                8058 Lampson Ave, Stanton, CA 90680
-              </div>
-              <div className="flex items-center gap-2 text-slate-400 text-sm">
-                <Mail size={14} className="text-sky-400 flex-shrink-0" />
-                reunion@lasantaberd6576.org
-              </div>
-              <div className="flex items-center gap-2 text-slate-400 text-sm">
-                <Phone size={14} className="text-sky-400 flex-shrink-0" />
-                +1 (408) 555-0198
-              </div>
-            </div>
           </div>
 
           {/* Quick Links */}
