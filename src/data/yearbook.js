@@ -1,3 +1,5 @@
+export const YEARBOOK_ARCHIVE_URL = 'https://taberd.org/ky_yeu.html'
+
 export const YEARBOOK_CLASSES = [
   {
     id: '73-74',

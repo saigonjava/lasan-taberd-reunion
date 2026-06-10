@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { BookOpen, ExternalLink } from 'lucide-react'
-import { YEARBOOK_CLASSES } from '../data/yearbook'
+import { BookOpen, ExternalLink, Library } from 'lucide-react'
+import { YEARBOOK_CLASSES, YEARBOOK_ARCHIVE_URL } from '../data/yearbook'
 
 export default function Yearbook() {
   const [classId, setClassId] = useState(YEARBOOK_CLASSES[0].id)
@@ -60,6 +60,25 @@ export default function Yearbook() {
             </a>
           ))}
         </div>
+
+        {/* Full archive link */}
+        <a
+          href={YEARBOOK_ARCHIVE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group mt-6 bg-slate-800/40 border border-dashed border-slate-600 hover:border-sky-400/40 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left transition-all"
+        >
+          <div className="w-12 h-12 rounded-xl bg-sky-400/10 border border-sky-400/20 flex items-center justify-center flex-shrink-0 group-hover:bg-sky-400/15 transition-all">
+            <Library size={20} className="text-sky-400" />
+          </div>
+          <div className="flex-1">
+            <div className="text-white font-semibold text-sm mb-1">Full Yearbook Archive</div>
+            <div className="text-slate-400 text-xs">Browse every Lasan Taberd yearbook from 1929 to 1974 on taberd.org.</div>
+          </div>
+          <div className="flex-shrink-0 flex items-center gap-1 text-slate-500 text-xs group-hover:text-sky-400 transition-colors">
+            Visit Archive <ExternalLink size={11} />
+          </div>
+        </a>
       </div>
     </div>
   )
