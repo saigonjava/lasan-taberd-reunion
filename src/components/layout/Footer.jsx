@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Heart, Eye } from 'lucide-react'
+import { Heart, Eye, Mail, Phone } from 'lucide-react'
 import { db } from '../../lib/firebase'
 import { doc, onSnapshot } from 'firebase/firestore'
 
@@ -36,6 +36,19 @@ export default function Footer() {
               Reconnecting the brothers of Lasan Taberd across continents, generations, and decades.
               Saigon is in our hearts forever.
             </p>
+
+            {/* Admin Contact */}
+            <div className="mt-4 pt-4 border-t border-slate-800 max-w-xs space-y-2">
+              <p className="text-slate-500 text-xs uppercase tracking-wider mb-1">Website Admin Contact: Phillip Nguyen</p>
+              <div className="flex items-center gap-2 text-slate-400 text-sm">
+                <Mail size={14} className="text-sky-400 flex-shrink-0" />
+                <span>saigonjava@gmail.com</span>
+              </div>
+              <div className="flex items-center gap-2 text-slate-400 text-sm">
+                <Phone size={14} className="text-sky-400 flex-shrink-0" />
+                <span>+1 (407) 349-7762</span>
+              </div>
+            </div>
           </div>
 
           {/* Quick Links */}
