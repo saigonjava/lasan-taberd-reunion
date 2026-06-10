@@ -8,6 +8,7 @@ const links = [
   { to: '/rsvp',      label: 'RSVP' },
   { to: '/gallery',   label: 'Gallery' },
   { to: '/forum',     label: 'Forum' },
+  { to: '/yearbook',  label: 'Yearbook' },
 ]
 
 export default function Navbar() {
