@@ -122,7 +122,7 @@ export default function Home() {
           <EventCard icon={Calendar} label="Date"     value="October 24, 2026"   sub="Saturday Evening" />
           <EventCard icon={Clock}    label="Time"     value="6:00 PM – 11:00 PM" sub="Doors open at 5:30 PM" />
           <EventCard icon={MapPin}   label="Venue"    value="8058 Lampson Ave"   sub="Stanton, CA 90680" />
-          <EventCard icon={Users}    label="Capacity" value="Limited to 150"      sub="Register early — seats filling fast" />
+          <EventCard icon={Users}    label="Capacity" value="Limited to 80"      sub="Register early — seats filling fast" />
         </div>
       </section>
 
