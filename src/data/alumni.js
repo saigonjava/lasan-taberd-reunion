@@ -20,8 +20,8 @@ function initialsOf(name) {
 
 function bioFor(location) {
   return location
-    ? `Lasan Taberd Class of 1965 alumnus, now residing in ${location}.`
-    : 'Lasan Taberd Class of 1965 alumnus.'
+    ? `Lasan Taberd Class of 1976 alumnus, now residing in ${location}.`
+    : 'Lasan Taberd Class of 1976 alumnus.'
 }
 
 const RAW = [
@@ -94,7 +94,7 @@ const RAW = [
 export const alumni = RAW.map(([name, location, country = 'USA'], i) => ({
   id: i + 1,
   name,
-  gradYear: 1965,
+  gradYear: 1976,
   location,
   country,
   profession: 'Retired',
