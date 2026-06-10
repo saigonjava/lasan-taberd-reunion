@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { CheckCircle, User, Mail, Phone, GraduationCap, Users, Utensils, MessageSquare, ChevronRight } from 'lucide-react'
 
-const YEARS = Array.from({ length: 12 }, (_, i) => 1965 + i)
+const YEARS = [1975, 1976, 1977]
 const DIETARY = ['None', 'Vegetarian', 'Vegan', 'Halal', 'Gluten-Free', 'Other']
 const ATTENDANCE = [
   { value: 'yes',   label: '✅  Yes, I will attend',            desc: 'Count me in!' },
