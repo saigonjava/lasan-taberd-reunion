@@ -20,17 +20,21 @@ function initialsOf(name) {
 
 function bioFor(location) {
   return location
-    ? `Lasan Taberd Class of 1976 alumnus, now residing in ${location}.`
-    : 'Lasan Taberd Class of 1976 alumnus.'
+    ? `Lasan Taberd Class of 1977 alumnus, now residing in ${location}.`
+    : 'Lasan Taberd Class of 1977 alumnus.'
 }
 
 const RAW = [
   ['Bui Van Dung', 'Orange County, CA'],
-  ['Nguyen Tien Dung', 'San Jose, CA'],
+  ['Nguyen Tien Dung', 'Orange County, CA'],
   ['Hoang Khoi', 'Las Vegas'],
+  ['Tran Hoan Vu', 'Las Vegas'],
   ['Bao Hung', 'San Diego'],
   ['Le Minh Triet', 'Orange County, CA'],
+  ['Ta Thanh Hoa','Orange County, CA'],
   ['Le Van Tanh', 'San Jose, CA'],
+  ['Hoang Duc Tuong', 'San Jose, CA'],
+  ['Ta Thanh Vu', 'San Francisco, CA'],
   ['Le Xuan Son', 'San Jose, CA'],
   ['Le Xuan Truong', 'Orange County, CA'],
   ['Bui Duy Thien', 'San Jose, CA'],
@@ -43,21 +47,23 @@ const RAW = [
   ['Nguyen Khac Nam', 'Orange County, CA'],
   ['Nguyen Ba Luat', 'Orange County, CA'],
   ['Nguyen Dac Binh','San Jose, CA'],
-  ['Nguyen Chi Hung', 'San Jose, CA'],
+  ['Vu Quoc Hung', 'San Jose, CA'],
   ['Nguyen Duc Van','Orange County, CA'],
-  ['Nguyen Thieu Hien','Orange County, CA'],
+  ['Nguyen Minh Hien','Orange County, CA'],
   ['Ngo Thinh','Orange County, CA'],
   ['Nguyen Phuc Vinh Thuan', 'Orange County, CA'],
   ['Nguyen Ngoc Lien', 'Orange County, CA'],
   ['Phan Thanh Phuong','Oregon', 'USA'],
   ['Nguyen Quang Vinh', 'Orlando, FL'],
   ['Tran Huu Khai','Houston, TX'],
+  ['Thai Phi Giao','Houston, TX'],
+  ['Nguyen Huu Trung','San Antonio, TX'],
   ['Pham Khanh Linh', 'Orange County, CA'],
   ['Pham Ngoc Vinh', 'Orange County, CA'],
-  ['Pham Ngoc Vinh', 'Orange County, CA'],
+  ['Phạm Ngọc Vĩnh', 'Orange County, CA'],
   ['Pham Duc Tan', 'Orange County, CA'],
   ['Pham Manh Quan', 'Orange County, CA'],
-  ['Lam The Hung','Atlanta, GA'],
+  ['Lam Phi Hung','Atlanta, GA'],
   ['Phan Huu Tai', 'Chicago'],
   ['Phan Quang Can', 'San Jose, CA'],
   ['Phung Ky', 'Las Vegas'],
@@ -76,25 +82,31 @@ const RAW = [
   ['Vo Phu Hai', 'Saigon', 'Vietnam'],
   ['Nguyen Kha Nhan', 'Saigon', 'Vietnam'],
   ['Le Thanh Nghia', 'Saigon', 'Vietnam'],
-  ['Pham Manh Quan', 'Saigon', 'Vietnam'],
+  ['Nguyen Nghi Quan', 'Saigon', 'Vietnam'],
   ['Vo Van Hoa', 'Saigon', 'Vietnam'],
   ['Tran Long Nhi', 'Saigon', 'Vietnam'],
+  ['Tran Van Ngoc', 'Saigon', 'Vietnam'],
+  ['Nguyen Ngoc Trang', 'Saigon', 'Vietnam'],
+  ['Dang Tung Lam', 'Saigon', 'Vietnam'],
   ['Luong Thong Nhat','Sydney', 'Australia'],
-  ['Tran Quoc Tien', 'Sydney', 'Australia'],
+  ['Bui Duc Tien', 'Sydney', 'Australia'],
   ['Truong Si Phuong','Montreal', 'Canada'],
   ['Luong Huy Tuan', 'Montreal', 'Canada'],
+  ['To Tien Long', 'Montreal', 'Canada'],
   ['Nguyen Duc Nam', 'Brussels', 'Belgium'],
   ['Tran Kim Khanh', 'Paris', 'France'],
   ['Nguyen Nhut Nam', 'Paris', 'France'],
   ['Vu Han Linh','Paris', 'France'],
   ['Dang Thanh Liem', 'Paris', 'France'],
   ['Banh Dinh Tuan', 'Paris', 'France'],
-]
+  ['Le Van Anh', 'Paris', 'France'],
+  ['Huynh Ngoc Minh', 'Paris', 'France'],
+  ]
 
 export const alumni = RAW.map(([name, location, country = 'USA'], i) => ({
   id: i + 1,
   name,
-  gradYear: 1976,
+  gradYear: 1977,
   location,
   country,
   profession: 'Retired',
