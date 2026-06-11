@@ -42,7 +42,6 @@ export default function RSVP() {
     firstName: '', lastName: '', email: '', phone: '',
     gradYear: '', attendance: '', plusOnes: '0',
     dietary: 'None', dietaryOther: '', message: '',
-    tshirt: false, tshirtSize: 'M',
   })
 
   const set = (k, v) => setForm(f => ({ ...f, [k]: v }))
@@ -68,7 +67,6 @@ export default function RSVP() {
           'Attendance': form.attendance === 'yes' ? 'Attending' : form.attendance === 'maybe' ? 'Maybe' : 'Unable to attend',
           'Plus-Ones': form.plusOnes === '0' ? 'Just me' : `${form.plusOnes} guest(s)`,
           'Dietary': form.dietary === 'Other' ? `Other: ${form.dietaryOther}` : form.dietary,
-          'Reunion T-Shirt': form.tshirt ? `Yes — Size ${form.tshirtSize}` : 'No',
           'Message': form.message || '—',
         }),
       })
@@ -234,20 +232,6 @@ export default function RSVP() {
                 <input className={inputCls} placeholder="Describe your dietary needs…" value={form.dietaryOther} onChange={e => set('dietaryOther', e.target.value)} />
               </Field>
             )}
-            <div className="mt-4 p-4 bg-amber-400/5 border border-amber-400/20 rounded-xl">
-              <label className="flex items-start gap-3 cursor-pointer">
-                <input type="checkbox" className="mt-0.5 accent-sky-400" checked={form.tshirt} onChange={e => set('tshirt', e.target.checked)} />
-                <div>
-                  <div className="text-white text-sm font-medium">Order Reunion T-Shirt ($25)</div>
-                  <div className="text-slate-400 text-xs mt-0.5">Official LT Class 65~76 keepsake T-shirt. Sizes S–3XL.</div>
-                </div>
-              </label>
-              {form.tshirt && (
-                <select className={inputCls + ' mt-3 cursor-pointer'} value={form.tshirtSize} onChange={e => set('tshirtSize', e.target.value)}>
-                  {['S','M','L','XL','2XL','3XL'].map(s => <option key={s} value={s}>Size {s}</option>)}
-                </select>
-              )}
-            </div>
           </div>
 
           {/* Section 4 — Message */}
