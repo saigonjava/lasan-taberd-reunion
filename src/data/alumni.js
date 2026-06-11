@@ -62,6 +62,7 @@ const RAW = [
   ['Pham Ngoc Vinh', 'Orange County, CA'],
   ['Phạm Ngọc Vĩnh', 'Orange County, CA'],
   ['Pham Duc Tan', 'Orange County, CA'],
+  ['Nguyen Hoang Tan', 'Whittier, CA'],
   ['Pham Manh Quan', 'Orange County, CA'],
   ['Lam Phi Hung','Atlanta, GA'],
   ['Phan Huu Tai', 'Chicago'],
