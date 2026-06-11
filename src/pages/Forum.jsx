@@ -179,6 +179,20 @@ export default function Forum() {
       replies: [],
       timestamp: serverTimestamp(),
     })
+
+    if (form.category === 'Announcements') {
+      fetch('https://formspree.io/f/xvznaeon', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          _subject: `New Announcement: ${form.title}`,
+          'Author': form.author || 'Anonymous',
+          'Title': form.title,
+          'Message': form.body,
+        }),
+      }).catch(() => {})
+    }
+
     setForm({ author: '', title: '', body: '', category: 'General Chat' })
     setNewPost(false)
     setCategory('All')

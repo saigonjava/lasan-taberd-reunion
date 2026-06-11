@@ -59,6 +59,7 @@ export default function RSVP() {
         body: JSON.stringify({
           _subject: `RSVP: ${form.firstName} ${form.lastName} — Lasan Taberd Reunion 2026`,
           _replyto: form.email,
+          _cc: 'ttlessthanone59@gmail.com',
           'First Name': form.firstName,
           'Last Name': form.lastName,
           'Email': form.email,
