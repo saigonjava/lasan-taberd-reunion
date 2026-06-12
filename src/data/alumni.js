@@ -55,6 +55,7 @@ const RAW = [
   ['Nguyen Ngoc Lien', 'Orange County, CA'],
   ['Phan Thanh Phuong','Oregon', 'USA'],
   ['Nguyen Quang Vinh', 'Orlando, FL'],
+  ['Tran Nguyen Dinh Khanh', 'Melbourne', 'Florida'],
   ['Tran Huu Khai','Houston, TX'],
   ['Thai Phi Giao','Houston, TX'],
   ['Nguyen Huu Trung','San Antonio, TX'],
