@@ -94,7 +94,7 @@ export default function RSVP() {
           <h1 className="text-3xl sm:text-4xl font-black text-white mb-4">Registration Received!</h1>
           <p className="text-slate-400 mb-3 leading-relaxed">
             Thank you, <span className="text-white font-semibold">{form.firstName} {form.lastName}</span>!<br />
-            Your RSVP for the <span className="text-sky-400">Lasan Taberd Class 65~76 Grand Reunion</span> has been confirmed.
+            Your RSVP for the <span className="text-sky-400">Lasan Taberd Class 65~76 Reunion</span> has been confirmed.
           </p>
           <p className="text-slate-500 text-sm mb-8">
             The committee will follow up with you at <span className="text-slate-300">{form.email}</span> with event details and payment instructions.
@@ -139,7 +139,7 @@ export default function RSVP() {
           </span>
           <h1 className="text-4xl sm:text-5xl font-black text-white mb-4">Reserve Your Seat</h1>
           <p className="text-slate-400 max-w-md mx-auto">
-            Complete this form to secure your place at the Grand Reunion on October 24, 2026.
+            Complete this form to secure your place at the Reunion on October 24, 2026.
           </p>
         </div>
 

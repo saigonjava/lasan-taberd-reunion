@@ -103,6 +103,7 @@ const RAW = [
   ['Le Van Anh', 'Paris', 'France'],
   ['Huynh Ngoc Minh', 'Paris', 'France'],
   ['Trinh Buu Son', 'Frankfurt','Germany'],
+  ['Chu Manh Tuyen', 'London','United Kingdom'],
   ]
 
 export const alumni = RAW.map(([name, location, country = 'USA'], i) => ({

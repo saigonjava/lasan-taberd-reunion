@@ -104,6 +104,11 @@ export default function Home() {
               Browse Alumni
             </Link>
           </div>
+
+          {/* Registration deadline notice */}
+          <p className="animate-fade-up-d3 text-slate-300 text-sm sm:text-base mt-6">
+            Registration deadline: <span className="text-sky-400 font-semibold">July 30, 2026</span>
+          </p>
         </div>
 
         {/* Scroll indicator */}
@@ -207,7 +212,7 @@ export default function Home() {
           Ready to Reunite<br />with Your Brothers?
         </h2>
         <p className="text-slate-400 mb-10 max-w-lg mx-auto">
-          Seats are limited. Register now to guarantee your place at the Grand Reunion — October 24, 2026.
+          Seats are limited. Register now to guarantee your place at the Reunion — October 24, 2026.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
