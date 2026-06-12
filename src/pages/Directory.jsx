@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
-import { Search, MapPin, Briefcase, GraduationCap, X } from 'lucide-react'
+import { Search, MapPin, Briefcase, GraduationCap, Mail, X } from 'lucide-react'
 import { alumni } from '../data/alumni'
+import ContactModal from '../components/ContactModal'
 
 const COUNTRY_FLAGS = {
   USA: '🇺🇸',
@@ -18,6 +19,7 @@ function flagFor(country) {
 
 function AlumniCard({ p }) {
   const [expanded, setExpanded] = useState(false)
+  const [contactOpen, setContactOpen] = useState(false)
   return (
     <div className="bg-slate-800/60 border border-slate-700 rounded-2xl overflow-hidden card-hover flex flex-col">
       {/* Top gradient banner */}
@@ -66,7 +68,16 @@ function AlumniCard({ p }) {
         >
           {expanded ? 'Show less' : 'Read more'}
         </button>
+
+        <button
+          className="mt-3 flex items-center justify-center gap-1.5 px-3 py-2 bg-sky-400/10 border border-sky-400/25 hover:bg-sky-400/20 rounded-lg text-sky-400 text-xs font-semibold transition-colors"
+          onClick={() => setContactOpen(true)}
+        >
+          <Mail size={13} /> Contact
+        </button>
       </div>
+
+      {contactOpen && <ContactModal recipientName={p.name} onClose={() => setContactOpen(false)} />}
     </div>
   )
 }
