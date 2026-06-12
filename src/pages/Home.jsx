@@ -109,7 +109,7 @@ export default function Home() {
 
           {/* Registration deadline notice */}
           <p className="animate-fade-up-d3 text-slate-300 text-sm sm:text-base mt-6">
-            Registration deadline: <span className="text-sky-400 font-semibold">July 30, 2026</span>
+            Registration deadline: <span className="text-sky-400 font-semibold">September 24, 2026</span>
           </p>
         </div>
 
