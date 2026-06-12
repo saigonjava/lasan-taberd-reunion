@@ -32,6 +32,7 @@ const RAW = [
   ['Bao Hung', 'San Diego'],
   ['Le Minh Triet', 'Orange County, CA'],
   ['Ta Thanh Hoa','Orange County, CA'],
+  ['Do Thanh Son','Orange County, CA'],
   ['Le Van Tanh', 'San Jose, CA'],
   ['Hoang Duc Tuong', 'San Jose, CA'],
   ['Ta Thanh Vu', 'San Francisco, CA'],
