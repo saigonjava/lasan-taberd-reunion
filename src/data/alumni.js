@@ -72,6 +72,7 @@ const RAW = [
   ['Tran Nguyen Linh Vu', 'San Jose, CA'],
   ['Trinh Ngoc Huy', 'San Jose, CA'],
   ['Vo Hieu', 'Orange County, CA'],
+  ['Vo Tien Dung', 'Dallas, Texas'],
   ['Vu Duong', 'Orange County, CA'],
   ['Vu Xuan Dat', 'Fairfax, VA'],
   ['Bui Huu Tin', 'Saigon', 'Vietnam'],
