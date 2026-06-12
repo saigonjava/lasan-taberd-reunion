@@ -6,5 +6,9 @@
 
 export const birthdays = [
 { name: 'Nguyen Phillip', month: 6, day: 13 },
+{ name: 'Nguyen Dinh Dzing', month: 4, day: 9 },
 { name: 'Le Xuan Truong', month: 11, day: 8 },
+{ name: 'Hoang Duc Tuong', month: 4, day: 21 },
+{ name: 'Nguyen Ngoc Lien', month: 10, day: 15 },
+{ name: 'Tran Nguyen Dinh Khanh', month: 4, day: 18 },
 ]
