@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { MapPin, Calendar, Clock, Users, ChevronDown, ArrowRight } from 'lucide-react'
 import { useCountdown } from '../hooks/useCountdown'
 import AnnouncementBanner from '../components/layout/AnnouncementBanner'
+import BirthdayBanner from '../components/layout/BirthdayBanner'
 
 const EVENT_DATE = '2026-10-24T18:00:00'
 
@@ -38,6 +39,7 @@ export default function Home() {
     <div className="bg-[#0F172A]">
 
       <AnnouncementBanner />
+      <BirthdayBanner />
 
       {/* ── HERO ─────────────────────────────────────────── */}
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
