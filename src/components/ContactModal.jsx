@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { X, Send, CheckCircle, Mail } from 'lucide-react'
 
 export default function ContactModal({ recipientName, onClose }) {
@@ -40,7 +41,7 @@ export default function ContactModal({ recipientName, onClose }) {
     }
   }
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60" onClick={onClose}>
       <div className="bg-slate-800 border border-slate-700 rounded-2xl max-w-md w-full p-6" onClick={e => e.stopPropagation()}>
         <div className="flex items-center justify-between mb-4">
@@ -88,6 +89,7 @@ export default function ContactModal({ recipientName, onClose }) {
           </form>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
