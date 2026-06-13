@@ -2,6 +2,16 @@ import { useState, useEffect } from 'react'
 import { Cake, X } from 'lucide-react'
 import { birthdays } from '../../data/birthdays'
 
+function ordinal(n) {
+  if (n > 3 && n < 21) return 'th'
+  switch (n % 10) {
+    case 1: return 'st'
+    case 2: return 'nd'
+    case 3: return 'rd'
+    default: return 'th'
+  }
+}
+
 export default function BirthdayBanner() {
   const [dismissed, setDismissed] = useState(false)
   const [today, setToday] = useState(null)
@@ -19,6 +29,8 @@ export default function BirthdayBanner() {
   if (todaysBirthdays.length === 0 || dismissed) return null
 
   const names = todaysBirthdays.map(b => b.name).join(', ')
+  const monthName = new Date(2000, month - 1, day).toLocaleDateString('en-US', { month: 'long' })
+  const dateLabel = `${monthName} ${day}${ordinal(day)}`
 
   return (
     <div className="mt-16 bg-pink-500/10 border-b border-pink-400/30">
@@ -26,7 +38,8 @@ export default function BirthdayBanner() {
         <Cake size={18} className="text-pink-400 flex-shrink-0" />
         <div className="flex-1 min-w-0 text-sm text-slate-200">
           <span className="font-semibold text-pink-400">Happy Birthday</span>{' '}
-          <span className="text-white">{names}</span>! 🎉
+          <span className="text-white">{names}</span>! 🎉{' '}
+          <span className="text-pink-300/70 text-xs">({dateLabel})</span>
         </div>
         <button
           onClick={() => setDismissed(true)}
