@@ -10,7 +10,7 @@ export const birthdays = [
 { name: 'Le Xuan Truong', month: 11, day: 6 },
 { name: 'Hoang Duc Tuong', month: 4, day: 21 },
 { name: 'Nguyen Ngoc Lien', month: 10, day: 15 },
-{ name: 'Ta Chien Thang', month: 16, day: 16 },
+{ name: 'Ta Chien Thang', month: 11, day: 16 },
 { name: 'Tran Nguyen Dinh Khanh', month: 4, day: 18 },
 { name: 'Pham Ngoc Vinh (LS)', month: 11, day: 14 },
 ]
