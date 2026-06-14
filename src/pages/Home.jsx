@@ -43,8 +43,18 @@ export default function Home() {
 
       {/* ── HERO ─────────────────────────────────────────── */}
       <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+        {/* Background photo */}
+        <div className="absolute inset-0">
+          <img
+            src="/photos/taberd_photo.jpg"
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/55 via-[#0F172A]/80 to-[#0F172A]" />
+        </div>
         {/* Grid bg */}
-        <div className="absolute inset-0 bg-grid-pattern opacity-100" />
+        <div className="absolute inset-0 bg-grid-pattern opacity-20" />
         {/* Glow orbs */}
         <div className="absolute top-1/4 left-1/3 w-[500px] h-[500px] bg-sky-500/8 rounded-full blur-[120px] animate-glow-pulse" />
         <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-blue-600/8 rounded-full blur-[100px] animate-glow-pulse" style={{ animationDelay: '1.5s' }} />
