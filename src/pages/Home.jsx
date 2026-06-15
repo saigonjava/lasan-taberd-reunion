@@ -212,9 +212,9 @@ export default function Home() {
             <p>Từ khi trường Lasan Taberd bị giải tán năm 76, như bầy chim bị vỡ tổ, vận mệnh của đất nước đã đẩy đưa các cựu học sinh của trường lưu lạc khắp nơi.</p>
             <p>Chúng tôi, một nhóm bạn học cũ (65~76)đã may mắn liên lạc lại được với nhau sau hơn 40 năm cách biệt. Với việc tạo dựng nên trang mạng nầy, chúng tôi chỉ có một mục đích duy nhất là tạo nên điều kiện để tất cả các bạn cũ, các cựu học sinh Taberd có cơ hội tìm lại với nhau, cùng nhau nhìn lại những hình ảnh quý giá của thời học trò và cũng để kể cho nhau những vui buồn trong cuộc sống đã qua.</p>
             <p>Và cũng để vinh danh, tưởng nhớ tới các sư huynh, các thầy cô đã bỏ công dạy dỗ chúng ta trong suốt thời gian học dưới mái trường thân yêu Lasan Taberd.</p>
-            <p>Chúng tôi hy vọng đạt được mục đích nối kết các bạn cựu học sinh Taberd ở khắp nơi không phân biệt địa vị xã hội, tôn giáo, chính kiến.</p>
+            <p>Chúng tôi hy vọng đạt được mục đích nối kết các bạn cựu học sinh Lasan Taberd ở khắp nơi không phân biệt địa vị xã hội, tôn giáo, chính kiến.</p>
             <p className="text-sky-400 font-semibold">Chào thân ái.</p>
-          </div>
+            </div>
         </div>
       </section>
 

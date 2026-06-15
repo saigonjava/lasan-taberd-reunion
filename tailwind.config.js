@@ -21,6 +21,7 @@ export default {
         'fade-up-d3': 'fadeUp 0.7s 0.3s ease-out both',
         'glow-pulse': 'glowPulse 3s ease-in-out infinite',
         'float': 'float 8s ease-in-out infinite',
+        'marquee': 'marquee 20s linear infinite',
       },
       keyframes: {
         fadeUp: {
@@ -34,6 +35,10 @@ export default {
         float: {
           '0%,100%': { transform: 'translateY(0px)' },
           '50%':     { transform: 'translateY(-14px)' },
+        },
+        marquee: {
+          '0%':   { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(0%)' },
         },
       },
     },
