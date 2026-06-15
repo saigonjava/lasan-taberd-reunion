@@ -16,6 +16,7 @@ export default function Yearbook() {
             Yearbook
           </span>
           <h1 className="text-4xl sm:text-5xl font-black text-white mb-4">Kỷ Yếu Lasan Taberd</h1>
+          <h1 className="text-4xl sm:text-5xl font-black text-white mb-4">1973 ~ 1974</h1>
           <p className="text-slate-400 max-w-lg mx-auto">
             Browse the original class yearbook pages, hosted on taberd.org.
           </p>
