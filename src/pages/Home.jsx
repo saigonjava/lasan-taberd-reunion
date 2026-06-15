@@ -64,7 +64,7 @@ export default function Home() {
           {/* Badge */}
           <div className="animate-fade-up inline-flex items-center gap-2 px-4 py-2 bg-sky-400/8 border border-sky-400/25 rounded-full text-sky-400 text-xs sm:text-sm font-medium mb-8">
             <span className="w-2 h-2 rounded-full bg-sky-400 animate-pulse" />
-            Lasan Taberd Classmates 75 & 76 Grand Reunion 2026
+            Lasan Taberd Classmates 75 & 76 Reunion 2026
           </div>
 
           {/* Emblem */}
@@ -86,7 +86,7 @@ export default function Home() {
             Class of 1965 ~ 1976
           </p>
           <h2 className="animate-fade-up-d2 text-xl sm:text-2xl font-light text-slate-300 mb-3">
-            Grand Reunion · <span className="text-white font-semibold">October 24, 2026</span>
+             Reunion · <span className="text-white font-semibold">October 24, 2026</span>
           </h2>
           <p className="animate-fade-up-d2 text-slate-400 text-sm sm:text-base mb-12 max-w-lg mx-auto leading-relaxed">
             Lasan Taberd Promo 65~76 Brotherhood — reunited across continents, decades, and memories.
@@ -159,7 +159,7 @@ export default function Home() {
             <div className="absolute left-[18px] sm:left-1/2 top-0 bottom-0 w-px bg-slate-700 sm:-translate-x-px" />
             {[
               { time: '5:30 PM', title: 'Arrival & Cocktail Reception', desc: 'Welcome drinks, photo-op station, pre-event networking' },
-              { time: '6:00 PM', title: 'Grand Opening Ceremony', desc: 'Welcome address from the Reunion Committee, everyones sing Lasan Hanh Khuc.'},             { time: '6:30 PM', title: 'Dinner Service', desc: 'A multi-course banquet by Diamond Seafood Palace — sodas, beers, and wines included' },
+              { time: '6:00 PM', title: 'Opening Ceremony', desc: 'Welcome address from the Reunion Committee, everyones sing Lasan Hanh Khuc.'},             { time: '6:30 PM', title: 'Dinner Service', desc: 'A multi-course banquet by Diamond Seafood Palace — sodas, beers, and wines included' },
               { time: '7:30 PM', title: 'Memorial Tribute', desc: 'Remembering the Brothers and Teachers we have lost.' },
               { time: '8:00 PM', title: 'Live Music & Entertainment', desc: 'One Man band Live performing classic Vietnamese, French and American music.'},
               { time: '9:30 PM', title: 'Open Dance Floor & Mingling', desc: 'Free time to reconnect, dance, and relive old memories until 11 PM' },
