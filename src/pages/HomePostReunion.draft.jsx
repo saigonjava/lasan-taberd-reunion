@@ -47,7 +47,7 @@ export default function Home() {
             aria-hidden="true"
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/55 via-[#0F172A]/80 to-[#0F172A]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0F172A]/30 via-[#0F172A]/60 to-[#0F172A]" />
         </div>
         {/* Grid bg */}
         <div className="absolute inset-0 bg-grid-pattern opacity-20" />
