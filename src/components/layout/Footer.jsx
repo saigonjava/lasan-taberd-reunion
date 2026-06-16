@@ -69,6 +69,16 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  href="https://taberd.org/tb/lasan_hanh_khuc.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-400 hover:text-sky-400 text-sm transition-colors"
+                >
+                  Lasan Hành Khúc
+                </a>
+              </li>
             </ul>
           </div>
 
