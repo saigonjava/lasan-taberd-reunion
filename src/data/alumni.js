@@ -25,11 +25,11 @@ function bioFor(location) {
 }
 
 const RAW = [
-  ['Bùi Văn Dũng', '  Orange County, CA'],
+  ['Bùi Văn Dũng', 'Orange County, CA'],
   ['Nguyễn Tiến Dũng', 'Orange County, CA'],
   ['Hoàng Khôi', 'Las Vegas, NV'],
   ['Trần Hoàn Vũ', 'Las Vegas, NV'],
-  ['Bảo Hưng', 'San Diego', 'CA'],
+  ['Bảo Hưng', 'San Diego, CA'],
   ['Lê Minh Triết', 'Orange County, CA'],
   ['Tạ Thanh Hoa', 'Orange County, CA'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
@@ -93,8 +93,8 @@ const RAW = [
   ['Trần Văn Ngọc', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Ngọc Trang', 'Sài Gòn', 'Việt Nam'],
   ['Đặng Tùng Lâm', 'Sài Gòn', 'Việt Nam'],
-  ['Lương Thống Nhất','Sydney', 'Úc'],
-  ['Lương Bắc Việt','Paris', 'Paris'],
+  ['Lương Thống Nhất','Sydney', 'Australia'],
+  ['Lương Bắc Việt','France', 'Paris'],
   ['Bùi Đức Tiến', 'Sydney, Australia'],
   ['Trương Sĩ Phương','Montreal', 'Canada'],
   ['Lương Huy Tuấn', 'Montreal', 'Canada'],
