@@ -39,7 +39,7 @@ export default function Footer() {
 
             {/* Admin Contact */}
             <div className="mt-4 pt-4 border-t border-slate-800 max-w-xs space-y-2">
-              <p className="text-slate-500 text-xs uppercase tracking-wider mb-1">Website Admin Contact: Phillip Nguyen</p>
+              <p className="text-slate-500 text-xs uppercase tracking-wider mb-1">Website Admin Contact:<br /><span className="text-white font-bold">Phillip Nguyen</span></p>
               <div className="flex items-center gap-2 text-slate-400 text-sm">
                 <Mail size={14} className="text-sky-400 flex-shrink-0" />
                 <span>saigonjava@gmail.com</span>
