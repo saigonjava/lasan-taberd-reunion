@@ -112,13 +112,13 @@ const RAW = [
   ]
  
   
-export const alumni = RAW.map(([name, location, country = 'USA'], i) => ({
+export const alumni = RAW.map(([name, location, country = 'USA', profession = 'Retired'], i) => ({
   id: i + 1,
   name,
   gradYear: 1977,
   location,
   country,
-  profession: 'Retired',
+  profession,
   company: '',
   bio: bioFor(location),
   initials: initialsOf(name),
