@@ -29,7 +29,7 @@ const RAW = [
   ['Nguyễn Tiến Dũng', 'Orange County, CA'],
   ['Hoàng Khôi', 'Las Vegas, NV'],
   ['Trần Hoàn Vũ', 'Las Vegas, NV'],
-  ['Bảo Hùng', 'San Diego, CA'],
+  ['Bảo Hùng', 'Houston, TX'],
   ['Lê Minh Triết', 'Orange County, CA'],
   ['Tạ Thanh Hòa', 'Orange County, CA'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
