@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, Globe } from 'lucide-react'
 
 const links = [
   { to: '/',          label: 'Home' },
@@ -61,7 +61,18 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center gap-3">
+          {/* Translate tip */}
+          <div className="relative group">
+            <button className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-slate-400 hover:text-sky-400 hover:bg-slate-800 transition-all">
+              <Globe size={15} />
+              <span className="text-xs font-medium">Translate</span>
+            </button>
+            <div className="absolute top-full right-0 mt-2 w-64 p-3 bg-slate-800 border border-slate-700 rounded-xl shadow-card text-xs text-slate-300 leading-relaxed opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-200 z-50">
+              <p className="font-semibold text-white mb-1">Read in your language</p>
+              <p>Right-click anywhere on this page and select <span className="text-sky-400 font-medium">"Translate to…"</span> to read in Vietnamese or any language.</p>
+            </div>
+          </div>
           <Link
             to="/rsvp"
             className="px-5 py-2 bg-sky-500 hover:bg-sky-400 text-white text-sm font-semibold rounded-xl neon-btn shadow-neon"
