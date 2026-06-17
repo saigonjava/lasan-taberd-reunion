@@ -109,12 +109,14 @@ export default function Home() {
             >
               Secure Your Spot
             </Link>
-            <Link
-              to="/directory"
+            <a
+              href="/Reunion2026_list.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-4 bg-transparent border border-slate-600 hover:border-sky-400/60 text-slate-300 hover:text-white font-semibold rounded-xl transition-all text-sm sm:text-base hover:bg-sky-400/5"
             >
-              Browse Alumni
-            </Link>
+              Browse Registered
+            </a>
           </div>
 
           {/* Registration deadline notice */}
