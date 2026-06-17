@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Heart, MessageCircle, Send, ChevronDown, ChevronUp, PenSquare, X, Loader } from 'lucide-react'
 import { CATEGORIES } from '../data/forum'
 import { db } from '../lib/firebase'
-import { collection, addDoc, onSnapshot, orderBy, query, serverTimestamp } from 'firebase/firestore'
+import { collection, addDoc, onSnapshot, orderBy, query, serverTimestamp, updateDoc, arrayUnion, doc } from 'firebase/firestore'
 
 function formatTime(ts) {
   if (!ts) return 'Just now'
@@ -27,7 +27,7 @@ function Reply({ r }) {
       <div className="flex-1 bg-slate-800/60 rounded-xl p-3">
         <div className="flex items-center gap-2 mb-1">
           <span className="text-white text-xs font-semibold">{r.author}</span>
-          <span className="text-slate-600 text-xs">{r.time}</span>
+          <span className="text-slate-600 text-xs">{formatTime(r.time)}</span>
         </div>
         <p className="text-slate-300 text-sm leading-relaxed">{r.body}</p>
       </div>
@@ -36,25 +36,32 @@ function Reply({ r }) {
 }
 
 function PostCard({ post, onLike }) {
-  const [showReplies, setShowReplies] = useState(false)
-  const [replyOpen,   setReplyOpen]   = useState(false)
-  const [replyText,   setReplyText]   = useState('')
-  const [replies, setReplies]         = useState(post.replies)
-  const [likes, setLikes]             = useState(post.likes)
-  const [liked, setLiked]             = useState(false)
+  const [showReplies,  setShowReplies]  = useState(false)
+  const [replyOpen,    setReplyOpen]    = useState(false)
+  const [replyText,    setReplyText]    = useState('')
+  const [replyAuthor,  setReplyAuthor]  = useState('')
+  const [likes, setLikes]              = useState(post.likes)
+  const [liked, setLiked]              = useState(false)
 
-  const submitReply = e => {
+  const replies = post.replies || []
+
+  const submitReply = async e => {
     e.preventDefault()
     if (!replyText.trim()) return
-    setReplies(r => [...r, {
-      id: Date.now(),
-      author: 'You (Guest)',
-      initials: 'YG',
-      gradient: 'from-slate-500 to-slate-600',
-      time: 'Just now',
-      body: replyText,
-    }])
+    const name = replyAuthor.trim() || 'Anonymous'
+    const initials = name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()
+    await updateDoc(doc(db, 'posts', post.id), {
+      replies: arrayUnion({
+        id: Date.now(),
+        author: name,
+        initials,
+        gradient: 'from-slate-500 to-slate-600',
+        time: new Date().toISOString(),
+        body: replyText,
+      })
+    })
     setReplyText('')
+    setReplyAuthor('')
     setReplyOpen(false)
     setShowReplies(true)
   }
@@ -124,6 +131,12 @@ function PostCard({ post, onLike }) {
           <div className="flex gap-3">
             <Avatar initials="YG" gradient="from-slate-500 to-slate-600" size="sm" />
             <div className="flex-1">
+              <input
+                value={replyAuthor}
+                onChange={e => setReplyAuthor(e.target.value)}
+                placeholder="Your name (optional)"
+                className="w-full px-3 py-2 bg-slate-800 border border-slate-700 focus:border-sky-400/60 rounded-xl text-white text-sm placeholder-slate-500 outline-none transition-all mb-2"
+              />
               <textarea
                 value={replyText}
                 onChange={e => setReplyText(e.target.value)}
