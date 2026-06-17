@@ -52,6 +52,7 @@ const RAW = [
   ['Lê Văn Tánh', 'San Jose, CA'],
   ['Lê Xuân Sơn', 'San Jose, CA'],
   ['Lê Xuân Trường', 'Orange County, CA'],
+  ['Lê Hữu Nghĩa', 'Portland, OR'],
   ['Lương Bắc Việt', 'France', 'Paris'],
   ['Lương Huy Tuấn', 'Montreal', 'Canada'],
   ['Lương Thống Nhất', 'Sydney', 'Australia'],
