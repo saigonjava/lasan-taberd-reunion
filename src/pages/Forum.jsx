@@ -224,6 +224,9 @@ export default function Forum() {
           <p className="text-slate-400 max-w-md mx-auto">
             Reconnect with brothers, share memories, ask questions about the event, and find lost contacts.
           </p>
+          <p className="mt-4 inline-block px-4 py-2 bg-amber-400/10 border border-amber-400/25 rounded-full text-amber-300 text-xs sm:text-sm font-medium">
+            Forum Policy: Please no religious, political, sexual, or money-related content.
+          </p>
         </div>
 
         {/* Category filter + New Post */}
