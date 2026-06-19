@@ -87,7 +87,17 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">The Event</h4>
             <ul className="space-y-3 text-sm text-slate-400">
               <li><span className="text-sky-400 font-medium">Date</span><br />October 24, 2026</li>
-              <li><span className="text-sky-400 font-medium">Venue</span><br />15351 Brookhurst St #104<br />Westminster, CA 92683</li>
+              <li>
+                <span className="text-sky-400 font-medium">Venue</span><br />
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=15351+Brookhurst+St+%23104%2C+Westminster%2C+CA+92683"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-sky-400 transition-colors"
+                >
+                  15351 Brookhurst St #104<br />Westminster, CA 92683
+                </a>
+              </li>
               <li><span className="text-sky-400 font-medium">Dress Code</span><br />Smart Formal / Áo Dài welcome</li>
             </ul>
           </div>

@@ -17,17 +17,36 @@ function CountdownBox({ value, label }) {
   )
 }
 
-function EventCard({ icon: Icon, label, value, sub }) {
-  return (
-    <div className="flex items-start gap-4 p-5 bg-slate-800/60 border border-slate-700 rounded-2xl card-hover">
+function EventCard({ icon: Icon, label, value, sub, href }) {
+  const Content = (
+    <>
       <div className="w-10 h-10 rounded-xl bg-sky-400/10 border border-sky-400/20 flex items-center justify-center flex-shrink-0">
         <Icon size={18} className="text-sky-400" />
       </div>
       <div>
         <div className="text-xs text-slate-500 uppercase tracking-wider font-medium mb-1">{label}</div>
-        <div className="text-white font-semibold text-sm">{value}</div>
+        <div className={`text-white font-semibold text-sm ${href ? 'group-hover:text-sky-400 transition-colors' : ''}`}>{value}</div>
         {sub && <div className="text-slate-400 text-xs mt-0.5">{sub}</div>}
       </div>
+    </>
+  )
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group flex items-start gap-4 p-5 bg-slate-800/60 border border-slate-700 hover:border-sky-400/40 rounded-2xl card-hover"
+      >
+        {Content}
+      </a>
+    )
+  }
+
+  return (
+    <div className="flex items-start gap-4 p-5 bg-slate-800/60 border border-slate-700 rounded-2xl card-hover">
+      {Content}
     </div>
   )
 }
@@ -143,7 +162,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <EventCard icon={Calendar} label="Date"     value="October 24, 2026"   sub="Saturday Evening" />
           <EventCard icon={Clock}    label="Time"     value="6:00 PM – 11:00 PM" sub="Doors open at 5:30 PM" />
-          <EventCard icon={MapPin}   label="Venue"    value="15351 Brookhurst St #104"   sub="Westminster, CA 92683" />
+          <EventCard icon={MapPin}   label="Venue"    value="15351 Brookhurst St #104"   sub="Westminster, CA 92683" href="https://www.google.com/maps/search/?api=1&query=15351+Brookhurst+St+%23104%2C+Westminster%2C+CA+92683" />
           <EventCard icon={Users}    label="Capacity" value="Limited to 80"      sub="Register early — seats filling fast" />
         </div>
       </section>
