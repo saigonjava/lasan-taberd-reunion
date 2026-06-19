@@ -87,7 +87,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-4">The Event</h4>
             <ul className="space-y-3 text-sm text-slate-400">
               <li><span className="text-sky-400 font-medium">Date</span><br />October 24, 2026</li>
-              <li><span className="text-sky-400 font-medium">Venue</span><br />8058 Lampson Ave<br />Stanton, CA 90680</li>
+              <li><span className="text-sky-400 font-medium">Venue</span><br />15351 Brookhurst St #104<br />Westminster, CA 92683</li>
               <li><span className="text-sky-400 font-medium">Dress Code</span><br />Smart Formal / Áo Dài welcome</li>
             </ul>
           </div>
