@@ -52,7 +52,7 @@ export default function Navbar() {
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 pathname === to
                   ? 'text-sky-400 bg-sky-400/10'
-                  : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                  : 'text-slate-100 hover:text-white hover:bg-slate-800'
               }`}
             >
               {label}
