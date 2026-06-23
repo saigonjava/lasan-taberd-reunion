@@ -32,6 +32,7 @@ const RAW = [
   ['Bùi Đức Tiến', 'Sydney', 'Australia'],
   ['Bùi Hữu Tín', 'Sài Gòn', 'Việt Nam'],
   ['Bùi Văn Dũng', 'Orange County, CA'],
+  ['Bùi Tấn Quốc Bắc', 'Orange County, CA'],
   // C
   ['Chu Mạnh Tuyến', 'London', 'United Kingdom'],
   // Đ
