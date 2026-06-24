@@ -108,7 +108,7 @@ export default function Footer() {
             © 2026 Lasan Taberd Class 65~76 Reunion. All rights reserved.
           </p>
           <p className="text-slate-500 text-xs flex items-center gap-1">
-            Made with <Heart size={12} className="text-rose-500" /> by the Reunion Committee
+            Made with <Heart size={12} className="text-rose-500" /> by the Phillip Nguyen
           </p>
           {visits !== null && (
             <p className="text-slate-600 text-xs flex items-center gap-1.5">
