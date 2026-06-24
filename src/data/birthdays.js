@@ -5,15 +5,28 @@
 // { name: 'Nguyen Van A', month: 3, day: 15 },
 
 export const birthdays = [
+// December    
 { name: 'Nguyen Phillip', month: 12, day: 29 },
-{ name: 'Nguyen Dinh Dzing', month: 4, day: 9 },
-{ name: 'Le Xuan Truong', month: 11, day: 6 },
-{ name: 'Hoang Duc Tuong', month: 4, day: 21 },
-{ name: 'Nguyen Ngoc Lien', month: 10, day: 15 },
-{ name: 'Ta Chien Thang', month: 11, day: 16 },
-{ name: 'Tran Nguyen Dinh Khanh', month: 4, day: 18 },
-{ name: 'Pham Ngoc Vinh (LS)', month: 11, day: 14 },
-{ name: 'Pham Trung Tan', month: 6, day: 10 },
-{ name: 'Nguyen Hoang Vu', month: 9, day: 23 },
 { name: 'Nguyen Duc Tan', month: 12, day: 8 },
+// November
+{ name: 'Le Xuan Truong', month: 11, day: 6 },
+{ name: 'Ta Chien Thang', month: 11, day: 16 },
+{ name: 'Pham Ngoc Vinh (LS)', month: 11, day: 14 },
+// October
+{ name: 'Nguyen Ngoc Lien', month: 10, day: 15 },
+// September
+{ name: 'Nguyen Hoang Vu', month: 9, day: 23 },
+{ name: 'Le Van Tanh', month: 9, day: 26 },
+// August
+// July
+// June
+{ name: 'Nguyen Van Hieu', month: 6, day: 1 },
+{ name: 'Pham Trung Tan', month: 6, day: 10 },
+// May
+{ name: 'Nguyen Van Tien', month: 5, day: 15 },
+{ name: 'Nguyen Van Hieu', month: 5, day: 1 },
+// April
+{ name: 'Nguyen Dinh Dzing', month: 4, day: 9 },
+{ name: 'Hoang Duc Tuong', month: 4, day: 21 },
+{ name: 'Tran Nguyen Dinh Khanh', month: 4, day: 18 },
 ]
