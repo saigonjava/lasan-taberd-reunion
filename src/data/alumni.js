@@ -39,7 +39,7 @@ const RAW = [
   ['Đặng Thanh Liêm', 'France', 'Paris'],
   ['Đặng Tùng Lâm', 'Sài Gòn', 'Việt Nam'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
-  ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'Dentist'],
+  ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'DDS'],
   // H
   ['Hoàng Đức Tường', 'San Jose, CA'],
   ['Hoàng Khôi', 'Las Vegas, NV'],
