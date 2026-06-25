@@ -29,7 +29,7 @@ function bioFor(location) {
 const RAW = [
   // B
   ['Bành Đình Tuấn', 'France', 'Paris', 'Dentist'],
-  ['Bảo Hùng', 'Houston, TX'],
+  ['Bảo Hùng', 'Houston, TX', 'USA', 'Retired', 'bao-hung.jpg'],
   ['Bùi Duy Thiện', 'San Jose, CA', 'USA', 'Dentist'],
   ['Bùi Đức Tiến', 'Sydney', 'Australia'],
   ['Bùi Hữu Tín', 'Sài Gòn', 'Việt Nam', 'Retired', 'bui-huu-tin.jpg'],
@@ -84,7 +84,6 @@ const RAW = [
   ['Nguyễn Phúc Vinh Thuận', 'Orange County, CA'],
   ['Nguyễn Quang Vinh', 'Orlando, FL', 'USA', 'Retired', 'nguyen-quang-vinh.jpg'],
   ['Nguyễn Tiến Dũng', 'Orange County, CA', 'USA', 'Retired', 'nguyen-tien-dung.jpg'],
-  ['Nguyễn Tuấn Kiệt', 'France', 'Paris', 'Retired', 'nguyen-tuan-kiet.jpg'],
   ['Nguyễn Văn Lộc', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Văn Thọ', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Quang Tiền', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-quang-tien.jpg'],
@@ -99,7 +98,7 @@ const RAW = [
   ['Phạm Mạnh Quân', 'Orange County, CA'],
   ['Phạm Ngọc Vĩnh', 'Orange County, CA', 'USA', 'Retired', 'pham-ngoc-vinh-e.jpg'],
   ['Phạm Ngọc Vinh', 'Orange County, CA', 'USA', 'Retired', 'pham-ngoc-vinh-a.jpg'],
-  ['Phùng Ký', 'Las Vegas, NV'],
+  ['Phùng Ký', 'Las Vegas, NV', 'USA', 'Retired', 'phung-nhuan-ky.jpg'],
   // T
   ['Tạ Chiến Thắng', 'Orange County, CA', 'USA', 'Retired', 'ta-chien-thang.jpg'],
   ['Tạ Thanh Hòa', 'Orange County, CA'],
