@@ -74,7 +74,7 @@ const RAW = [
   ['Nguyễn Hữu Trung', 'San Antonio, TX'],
   ['Nguyễn Khắc Nam', 'Orange County, CA'],
   ['Nguyễn Khả Nhân', 'Sài Gòn', 'Việt Nam'],
-  ['Nguyễn Minh Hiền', 'Orange County, CA'],
+  ['Nguyễn Minh Hiến', 'Orange County, CA'],
   ['Nguyễn Nghi Quân', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Ngọc Liên', 'Orange County, CA'],
   ['Nguyễn Ngọc Trang', 'Sài Gòn', 'Việt Nam'],

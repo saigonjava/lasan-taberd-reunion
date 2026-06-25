@@ -33,6 +33,6 @@ export const birthdays = [
 // March
 // February
 { name: 'Phan Huu Tai', month: 2, day: 13 },
-{ name: 'Nguyen Minh Hiền', month: 2, day: 26 },
+{ name: 'Nguyen Minh Hiến', month: 2, day: 26 },
 // January
 ]
