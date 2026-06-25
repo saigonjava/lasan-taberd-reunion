@@ -24,6 +24,8 @@ function bioFor(location) {
     : 'Lasan Taberd Class of 1977 alumnus.'
 }
 
+// Tuple format: [name, location, country = 'USA', profession = 'Retired', photo = null]
+// photo is just the filename (e.g. 'bui-duy-thien.jpg') placed in public/photos/alumni/
 const RAW = [
   // B
   ['Bành Đình Tuấn', 'France', 'Paris', 'Dentist'],
@@ -126,7 +128,7 @@ const RAW = [
 ]
  
   
-export const alumni = RAW.map(([name, location, country = 'USA', profession = 'Retired'], i) => ({
+export const alumni = RAW.map(([name, location, country = 'USA', profession = 'Retired', photo = null], i) => ({
   id: i + 1,
   name,
   gradYear: 1977,
@@ -134,6 +136,7 @@ export const alumni = RAW.map(([name, location, country = 'USA', profession = 'R
   country,
   profession,
   company: '',
+  photo: photo ? `/photos/alumni/${photo}` : null,
   bio: bioFor(location),
   initials: initialsOf(name),
   gradient: GRADIENTS[i % GRADIENTS.length],

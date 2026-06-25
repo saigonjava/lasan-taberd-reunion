@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react'
 import { Search, MapPin, Briefcase, GraduationCap, Mail, X } from 'lucide-react'
 import { alumni } from '../data/alumni'
 import ContactModal from '../components/ContactModal'
+import PhotoModal from '../components/PhotoModal'
 
 const COUNTRY_FLAGS = {
   USA: '🇺🇸',
@@ -20,6 +21,7 @@ function flagFor(country) {
 function AlumniCard({ p }) {
   const [expanded, setExpanded] = useState(false)
   const [contactOpen, setContactOpen] = useState(false)
+  const [photoOpen, setPhotoOpen] = useState(false)
   return (
     <div className="bg-slate-800/60 border border-slate-700 rounded-2xl overflow-hidden card-hover flex flex-col">
       {/* Top gradient banner */}
@@ -27,9 +29,19 @@ function AlumniCard({ p }) {
 
       {/* Avatar */}
       <div className="px-5 -mt-8 pb-0">
-        <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${p.gradient} flex items-center justify-center text-white font-black text-xl border-4 border-slate-800 shadow-card`}>
-          {p.initials}
-        </div>
+        {p.photo ? (
+          <button
+            onClick={() => setPhotoOpen(true)}
+            className="w-16 h-16 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-card cursor-pointer"
+            aria-label={`View photo of ${p.name}`}
+          >
+            <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
+          </button>
+        ) : (
+          <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${p.gradient} flex items-center justify-center text-white font-black text-xl border-4 border-slate-800 shadow-card`}>
+            {p.initials}
+          </div>
+        )}
       </div>
 
       <div className="px-5 pt-3 pb-5 flex flex-col flex-1">
@@ -78,6 +90,7 @@ function AlumniCard({ p }) {
       </div>
 
       {contactOpen && <ContactModal recipientName={p.name} onClose={() => setContactOpen(false)} />}
+      {photoOpen && <PhotoModal name={p.name} photo={p.photo} onClose={() => setPhotoOpen(false)} />}
     </div>
   )
 }
