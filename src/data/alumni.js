@@ -53,7 +53,7 @@ const RAW = [
   ['Lê Minh Triết', 'Orange County, CA', 'USA', 'Retired', 'le-minh-triet.jpg'],
   ['Lê Thanh Nghĩa', 'Sài Gòn', 'Việt Nam'],
   ['Lê Văn Anh', 'France', 'Paris'],
-  ['Lê Văn Tánh', 'San Jose, CA'],
+  ['Lê Văn Tánh', 'San Jose, CA', 'USA', 'Retired', 'le-van-tanh.jpg'],
   ['Lê Xuân Sơn', 'San Jose, CA'],
   ['Lê Xuân Trường', 'Orange County, CA', 'USA', 'Retired', 'le-xuan-truong.jpg'],
   ['Lê Hữu Nghĩa', 'Portland, OR'],
