@@ -6,6 +6,12 @@
 ```bash
 cd /Users/phillipnguyen/ClaudeCode-Project/website/reunion
 npm run dev
+
+
+lsof -ti:3000 | xargs kill -9 2>/dev/null; sleep 1
+cd /Users/phillipnguyen/ClaudeCode-Project/website/reunion && npm run dev -- --port 3000 --host > /tmp/reunion_dev.log 2>&1 &
+sleep 3 && cat /tmp/reunion_dev.log
+
 ```
 Site runs at: `http://localhost:3000`
 

@@ -12,16 +12,19 @@ export const birthdays = [
 { name: 'Le Xuan Truong', month: 11, day: 6 },
 { name: 'Ta Chien Thang', month: 11, day: 16 },
 { name: 'Pham Ngoc Vinh (LS)', month: 11, day: 14 },
+{ name: 'Bùi Văn Dũng', month: 11, day: 21 },
 // October
 { name: 'Nguyen Ngoc Lien', month: 10, day: 15 },
 // September
 { name: 'Nguyen Hoang Vu', month: 9, day: 23 },
 { name: 'Le Van Tanh', month: 9, day: 26 },
 // August
+{ name: 'Phan Thanh Phuong', month: 8, day: 10 },
 // July
 // June
 { name: 'Pham Trung Tan', month: 6, day: 10 },
 { name: 'Vu Han Linh', month: 6, day: 1 },
+{ name: 'Nguyễn Quang Tiền', month: 6, day: 23 },
 // May
 // April
 { name: 'Nguyen Dinh Dzing', month: 4, day: 9 },
@@ -30,5 +33,6 @@ export const birthdays = [
 // March
 // February
 { name: 'Phan Huu Tai', month: 2, day: 13 },
+{ name: 'Nguyen Minh Hiền', month: 2, day: 26 },
 // January
 ]

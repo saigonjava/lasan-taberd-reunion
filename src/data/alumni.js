@@ -84,6 +84,7 @@ const RAW = [
   ['Nguyễn Tiến Dũng', 'Orange County, CA'],
   ['Nguyễn Văn Lộc', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Văn Thọ', 'Sài Gòn', 'Việt Nam'],
+  ['Nguyễn Quang Tiền', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Xuân Sơn', 'Portland, OR'],
   // P
   ['Phan Duc Tri', 'France', 'Paris'],
