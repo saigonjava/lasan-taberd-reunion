@@ -93,7 +93,7 @@ const RAW = [
   ['Phan Hữu Tài', 'Chicago, IL'],
   ['Phan Quang Cẩn', 'San Jose, CA'],
   ['Phan Thanh Phương', 'Portland, OR'],
-  ['Phạm Đức Tấn', 'Orange County, CA'],
+  ['Phạm Đức Tấn', 'Orange County, CA', 'USA', 'Retired', 'pham-duc-tan.jpg'],
   ['Phạm Khánh Linh', 'Orange County, CA'],
   ['Phạm Mạnh Quân', 'Orange County, CA'],
   ['Phạm Ngọc Vĩnh', 'Orange County, CA'],
