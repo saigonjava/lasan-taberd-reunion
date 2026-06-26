@@ -34,7 +34,7 @@ const RAW = [
   ['Bùi Đức Tiến', 'Sydney', 'Australia'],
   ['Bùi Hữu Tín', 'Sài Gòn', 'Việt Nam', 'Retired', 'bui-huu-tin.jpg'],
   ['Bùi Văn Dũng', 'Orange County, CA', 'USA', 'Retired', 'bui-van-dung.jpg'],
-  ['Bùi Tấn Quốc Bắc', 'Orange County, CA'],
+  ['Bùi Tấn Quốc Bắc', 'Orange County, CA', 'USA', 'Retired', 'bui-tan-quoc-bac.jpg'],
   // C
   // Đ
   ['Đặng Thanh Liêm', 'France', 'Paris', 'Retired', 'dang-thanh-liem.jpg'],
