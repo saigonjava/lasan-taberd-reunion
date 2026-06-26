@@ -36,10 +36,10 @@ const RAW = [
   ['Bùi Văn Dũng', 'Orange County, CA', 'USA', 'Retired', 'bui-van-dung.jpg'],
   ['Bùi Tấn Quốc Bắc', 'Orange County, CA'],
   // C
-  ['Chu Mạnh Tuyến', 'London', 'United Kingdom'],
   // Đ
   ['Đặng Thanh Liêm', 'France', 'Paris', 'Retired', 'dang-thanh-liem.jpg'],
-  ['Đặng Tùng Lâm', 'Sài Gòn', 'Việt Nam'],
+  ['Đặng Tùng Lâm', 'Sài Gòn', 'Việt Nam', 'Retired'],
+  ['Đặng Trường Sơn', 'Sài Gòn', 'Việt Nam', 'Retired'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
   ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'DDS', 'duong-quoc-vu.jpg'],
   // H
@@ -61,7 +61,7 @@ const RAW = [
   ['Lương Huy Tuấn', 'Montreal', 'Canada'],
   ['Lương Thống Nhất', 'Sydney', 'Australia'],
   // N
-  ['Ngô Thịnh', 'Orange County, CA'],
+  ['Ngô van Thịnh', 'Orange County, CA'],
   ['Nguyễn Bá Luật', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-ba-luat-vn.jpg'],
   ['Nguyễn Công Danh', 'Orlando, FL'],
   ['Nguyễn Đắc Bình', 'San Jose, CA'],
@@ -76,12 +76,13 @@ const RAW = [
   ['Nguyễn Hữu Trung', 'San Antonio, TX'],
   ['Nguyễn Khắc Nam', 'Orange County, CA', 'USA', 'Retired', 'nguyen-khac-nam.jpg'],
   ['Nguyễn Khả Nhân', 'Sài Gòn', 'Việt Nam'],
-  ['Nguyễn Minh Hiến', 'Orange County, CA', 'USA', 'Retired', 'nguyen-minh-hien.jpg'],
-  ['Nguyễn Nghi Quân', 'Sài Gòn', 'Việt Nam','Retired', 'nguyen-nghi-quan-vn.jpg'],
+  ['Nguyễn Minh Hiến', 'Orange County, CA', 'USA', 'Retired'],
+  ['Nguyễn Nghi Quân', 'Oklahoma', 'USA', 'Retired',],
+  ['Nguyễn Ngọc Quân', 'Sài Gòn', 'Việt Nam','Retired','nguyen-ngoc-quan-vn.jpg'],
   ['Nguyễn Ngọc Liên', 'Orange County, CA', 'USA', 'Retired', 'nguyen-ngoc-lien.jpg'],
   ['Nguyễn Ngọc Trang', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Nhựt Nam', 'France', 'Paris'],
-  ['Nguyễn Phúc Vinh Thuận', 'Orange County, CA'],
+  ['Nguyễn Phúc Vĩnh Thuần', 'Orange County, CA'],
   ['Nguyễn Quang Vinh', 'Orlando, FL', 'USA', 'Retired', 'nguyen-quang-vinh.jpg'],
   ['Nguyễn Tiến Dũng', 'Orange County, CA', 'USA', 'Retired', 'nguyen-tien-dung.jpg'],
   ['Nguyễn Văn Lộc', 'Sài Gòn', 'Việt Nam'],
@@ -89,6 +90,8 @@ const RAW = [
   ['Nguyễn Quang Tiền', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-quang-tien.jpg'],
   ['Nguyễn Xuân Sơn', 'Portland, OR'],
   ['Nguyễn thái Hoàng', 'San Jose, CA', 'USA', 'Retired', 'nguyen-thai-hoang.jpg'],
+  ['Nguyễn Minh Hoàng', 'Paris', 'France'],
+  ['Nguyễn Văn Cường', 'France', 'Paris'],
   // P
   ['Phan Duc Tri', 'France', 'Paris'],
   ['Phan Hữu Tài', 'Chicago, IL', 'USA', 'Retired', 'phan-huu-tai.jpg'],
@@ -119,13 +122,12 @@ const RAW = [
   ['Trịnh Ngọc Huy', 'San Jose, CA', 'USA', 'MD Gastroenterology'],
   ['Trương Sĩ Phương', 'Montreal', 'Canada'],
   // V
-  ['Võ Hiếu', 'Orange County, CA'],
+  ['Võ Khắc Hiếu', 'Orange County, CA', 'USA', 'Retired', 'vo-khac-hieu.jpg'],
   ['Võ Phú Hải', 'Sài Gòn', 'Việt Nam'],
   ['Võ Tiến Dũng', 'Dallas, Texas'],
   ['Võ Văn Hòa', 'Sài Gòn', 'Việt Nam'],
-  ['Vũ Dương', 'Orange County, CA', 'USA', 'Dentist'],
-  ['Vũ Hân Linh', 'France', 'Paris'],
-  ['Vũ Quốc Hưng', 'San Jose, CA'],
+  ['Vũ Hán Linh', 'France', 'Paris'],
+  ['Vũ Quốc Hưng', 'Virginia, VA', 'USA', 'Retired'],
   ['Vũ Xuân Đạt', 'Fairfax, VA', 'USA', 'Retired', 'vu-xuan-dat.jpg'],
 ]
  

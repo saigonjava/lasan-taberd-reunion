@@ -22,6 +22,7 @@ function AlumniCard({ p }) {
   const [expanded, setExpanded] = useState(false)
   const [contactOpen, setContactOpen] = useState(false)
   const [photoOpen, setPhotoOpen] = useState(false)
+  const [photoFailed, setPhotoFailed] = useState(false)
   return (
     <div className="bg-slate-800/60 border border-slate-700 rounded-2xl overflow-hidden card-hover flex flex-col">
       {/* Top gradient banner */}
@@ -29,13 +30,13 @@ function AlumniCard({ p }) {
 
       {/* Avatar */}
       <div className="px-5 -mt-8 pb-0">
-        {p.photo ? (
+        {p.photo && !photoFailed ? (
           <button
             onClick={() => setPhotoOpen(true)}
             className="w-16 h-16 rounded-2xl overflow-hidden border-4 border-slate-800 shadow-card cursor-pointer"
             aria-label={`View photo of ${p.name}`}
           >
-            <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
+            <img src={p.photo} alt={p.name} className="w-full h-full object-cover" onError={() => setPhotoFailed(true)} />
           </button>
         ) : (
           <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${p.gradient} flex items-center justify-center text-white font-black text-xl border-4 border-slate-800 shadow-card`}>
