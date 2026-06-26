@@ -44,7 +44,7 @@ const RAW = [
   ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'DDS', 'duong-quoc-vu.jpg'],
   // H
   ['Hoàng Đức Tường', 'San Jose, CA', 'USA', 'Retired', 'hoang-duc-tuong.jpg'],
-  ['Hoàng Khôi', 'Las Vegas, NV'],
+  ['Hoàng Khôi', 'Las Vegas, NV', 'USA', 'Retired', 'hoang-khoi.jpg'],
   ['Hồ Anh Tuấn', 'San Jose, CA', 'USA', 'Retired', 'ho-anh-tuan.jpg'],
   ['Huỳnh Ngọc Minh', 'France', 'Paris', 'Retired', 'huynh-ngoc-minh.jpg'],
   // L
