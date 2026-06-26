@@ -100,7 +100,6 @@ const RAW = [
   ['Phan Quang Cần', 'Orange County, CA', 'USA', 'Retired', 'phan-quang-can.jpg'],
   ['Phạm Đức Tấn', 'Orange County, CA', 'USA', 'Retired', 'pham-duc-tan.jpg'],
   ['Phạm Khánh Linh', 'Orange County, CA', 'USA', 'Retired', 'pham-khanh-linh.jpg'],
-  ['Phạm Mạnh Quân', 'Orange County, CA'],
   ['Phạm Ngọc Vĩnh', 'Orange County, CA', 'USA', 'Retired', 'pham-ngoc-vinh-e.jpg'],
   ['Phạm Ngọc Vinh', 'Orange County, CA', 'USA', 'Retired', 'pham-ngoc-vinh-a.jpg'],
   ['Phạm Mạnh Quân ', 'Orange County, CA', 'USA', 'Retired', 'pham-manh-quan.jpg'],
