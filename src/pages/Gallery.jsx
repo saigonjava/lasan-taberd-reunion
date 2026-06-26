@@ -59,7 +59,7 @@ function PasswordGate({ onUnlock }) {
           </button>
         </form>
         <p className="text-slate-600 text-xs mt-6">
-          Hint: the password was sent in the committee email. Contact us at reunion@lasantaberd6576.org
+          Hint: the password was sent in the website admin email. Contact us at saigonjava@gmail.com
         </p>
       </div>
     </div>
