@@ -30,7 +30,7 @@ const RAW = [
   // B
   ['Bành Đình Tuấn', 'France', 'Paris', 'Dentist'],
   ['Bảo Hùng', 'Houston, TX', 'USA', 'Retired', 'bao-hung.jpg'],
-  ['Bùi Duy Thiện', 'San Jose, CA', 'USA', 'Dentist'],
+  ['Bùi Duy Thiện', 'San Jose, CA', 'USA', 'Dentist', 'bui-duy-thien.jpg'],
   ['Bùi Đức Tiến', 'Sydney', 'Australia'],
   ['Bùi Hữu Tín', 'Sài Gòn', 'Việt Nam', 'Retired', 'bui-huu-tin.jpg'],
   ['Bùi Văn Dũng', 'Orange County, CA', 'USA', 'Retired', 'bui-van-dung.jpg'],
