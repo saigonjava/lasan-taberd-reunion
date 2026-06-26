@@ -109,3 +109,27 @@ Defined in `src/data/gallery.js` → `export const GALLERY_PASSWORD`
 | Public preview | ngrok      | run `ngrok http 3000` in terminal           |
 | Local dev      | Vite       | run `npm run dev` → localhost:3000          |
 | Gallery lock   | —          | password: `taberd2026`                      |
+
+
+
+## Process ###  
+1. Build the production files
+
+cd /Users/phillipnguyen/ClaudeCode-Project/website/reunion
+npm run build
+2. Deploy to Cloudflare Pages
+
+npx wrangler pages deploy dist --project-name lasan-taberd-reunion --branch master --commit-dirty=true
+This pushes the live site to lasantaberd6576.us directly.
+
+3. Push the code to GitHub (separate from the live deploy)
+
+git add -A
+git commit -m "Add new alumni photos and entries"
+git push
+Notes:
+
+## Noted
+    Steps 2 and 3 are independent — deploying to Cloudflare makes the site live; pushing to GitHub just saves the code/history. You can do either first, but doing both keeps everything in sync.
+
+##  If you're using GitHub Desktop instead of these git commands, just do: stage/review changes → write a commit summary → Commit to master → Push origin, same as before.
