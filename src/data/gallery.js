@@ -1,5 +1,4 @@
 export const ALBUMS = [
-  { id: 'all',           label: 'All Photos' },
   { id: 'summer-fl-2026', label: 'Summer FL 2026' },
   { id: 'summer-fl-2018', label: 'Summer FL 2018' },  
   { id: '2026', label: 'Reunion 2026' },
