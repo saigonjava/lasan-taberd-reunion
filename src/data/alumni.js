@@ -38,7 +38,7 @@ const RAW = [
   // C
   ['Chu Mạnh Tuyến', 'London', 'United Kingdom'],
   // Đ
-  ['Đặng Thanh Liêm', 'France', 'Paris'],
+  ['Đặng Thanh Liêm', 'France', 'Paris', 'Retired', 'dang-thanh-liem.jpg'],
   ['Đặng Tùng Lâm', 'Sài Gòn', 'Việt Nam'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
   ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'DDS', 'duong-quoc-vu.jpg'],
@@ -48,13 +48,13 @@ const RAW = [
   ['Hồ Anh Tuấn', 'San Jose, CA', 'USA', 'Retired', 'ho-anh-tuan.jpg'],
   ['Huỳnh Ngọc Minh', 'France', 'Paris', 'Retired', 'huynh-ngoc-minh.jpg'],
   // L
-  ['Lâm Phi Hùng', 'Atlanta, GA', 'USA', 'Retired', 'lam-phi-hung.jpg'],
+  ['Lâm Thế Hùng', 'Atlanta, GA', 'USA', 'Retired', 'lam-the-hung.jpg'],
   ['Lê Kim Tuấn', 'Sài Gòn', 'Việt Nam'],
   ['Lê Minh Triết', 'Orange County, CA', 'USA', 'Retired', 'le-minh-triet.jpg'],
   ['Lê Thanh Nghĩa', 'Sài Gòn', 'Việt Nam'],
   ['Lê Văn Anh', 'France', 'Paris'],
   ['Lê Văn Tánh', 'San Jose, CA', 'USA', 'Retired', 'le-van-tanh.jpg'],
-  ['Lê Xuân Sơn', 'San Jose, CA'],
+  ['Lê Xuân Sơn', 'San Jose, CA', 'USA', 'Retired', 'le-xuan-son.jpg'],
   ['Lê Xuân Trường', 'Orange County, CA', 'USA', 'Retired', 'le-xuan-truong.jpg'],
   ['Lê Hữu Nghĩa', 'Portland, OR'],
   ['Lương Bắc Việt', 'France', 'Paris'],
@@ -71,7 +71,7 @@ const RAW = [
   ['Nguyễn Đức Tân', 'Virginia, VA', 'USA', 'Retired', 'nguyen-duc-tan.jpg'],
   ['Nguyễn Đức Vân', 'Orange County, CA'],
   ['Nguyễn Hoàng Tân', 'Whittier, CA'],
-  ['Nguyễn Hoàng Vũ', 'Virginia, VA'],
+  ['Nguyễn Hoàng Vũ', 'Virginia, VA', 'USA', 'Retired', 'nguyen-hoang-vu.jpg'],
   ['Nguyễn Hữu Đức', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-huu-duc-vn.jpg'],
   ['Nguyễn Hữu Trung', 'San Antonio, TX'],
   ['Nguyễn Khắc Nam', 'Orange County, CA', 'USA', 'Retired', 'nguyen-khac-nam.jpg'],
@@ -88,6 +88,7 @@ const RAW = [
   ['Nguyễn Văn Thọ', 'Sài Gòn', 'Việt Nam'],
   ['Nguyễn Quang Tiền', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-quang-tien.jpg'],
   ['Nguyễn Xuân Sơn', 'Portland, OR'],
+  ['Nguyễn thái Hoàng', 'San Jose, CA', 'USA', 'Retired', 'nguyen-thai-hoang.jpg'],
   // P
   ['Phan Duc Tri', 'France', 'Paris'],
   ['Phan Hữu Tài', 'Chicago, IL', 'USA', 'Retired', 'phan-huu-tai.jpg'],
