@@ -97,11 +97,13 @@ const RAW = [
   ['Phan Hữu Tài', 'Chicago, IL', 'USA', 'Retired', 'phan-huu-tai.jpg'],
   ['Phan Quang Cẩn', 'San Jose, CA'],
   ['Phan Thanh Phương', 'Portland, OR'],
+  ['Phan Quang Cần', 'Orange County, CA', 'USA', 'Retired', 'phan-quang-can.jpg'],
   ['Phạm Đức Tấn', 'Orange County, CA', 'USA', 'Retired', 'pham-duc-tan.jpg'],
   ['Phạm Khánh Linh', 'Orange County, CA', 'USA', 'Retired', 'pham-khanh-linh.jpg'],
   ['Phạm Mạnh Quân', 'Orange County, CA'],
   ['Phạm Ngọc Vĩnh', 'Orange County, CA', 'USA', 'Retired', 'pham-ngoc-vinh-e.jpg'],
   ['Phạm Ngọc Vinh', 'Orange County, CA', 'USA', 'Retired', 'pham-ngoc-vinh-a.jpg'],
+  ['Phạm Mạnh Quân ', 'Orange County, CA', 'USA', 'Retired', 'pham-manh-quan.jpg'],
   ['Phùng Ký', 'Las Vegas, NV', 'USA', 'Retired', 'phung-ky.jpg'],
   // T
   ['Tạ Chiến Thắng', 'Orange County, CA', 'USA', 'Retired', 'ta-chien-thang.jpg'],
