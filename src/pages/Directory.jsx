@@ -18,6 +18,14 @@ function flagFor(country) {
   return COUNTRY_FLAGS[country] || '🌐'
 }
 
+function normalize(str) {
+  return str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/đ/g, 'd')
+}
+
 function AlumniCard({ p }) {
   const [expanded, setExpanded] = useState(false)
   const [contactOpen, setContactOpen] = useState(false)
@@ -100,16 +108,16 @@ export default function Directory() {
   const [query,   setQuery]   = useState('')
   const [country, setCountry] = useState('All')
 
-  const filtered = useMemo(() =>
-    alumni.filter(a => {
-      const matchQuery = a.name.toLowerCase().includes(query.toLowerCase()) ||
-                         a.profession.toLowerCase().includes(query.toLowerCase()) ||
-                         a.location.toLowerCase().includes(query.toLowerCase())
+  const filtered = useMemo(() => {
+    const q = normalize(query)
+    return alumni.filter(a => {
+      const matchQuery = normalize(a.name).includes(q) ||
+                         normalize(a.profession).includes(q) ||
+                         normalize(a.location).includes(q)
       const matchCountry = country === 'All' || a.country === country
       return matchQuery && matchCountry
-    }),
-    [query, country]
-  )
+    })
+  }, [query, country])
 
   return (
     <div className="bg-[#0F172A] min-h-screen pt-24">
