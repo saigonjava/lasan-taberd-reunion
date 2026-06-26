@@ -76,7 +76,7 @@ const RAW = [
   ['Nguyễn Hữu Trung', 'San Antonio, TX'],
   ['Nguyễn Khắc Nam', 'Orange County, CA', 'USA', 'Retired', 'nguyen-khac-nam.jpg'],
   ['Nguyễn Khả Nhân', 'Sài Gòn', 'Việt Nam'],
-  ['Nguyễn Minh Hiến', 'Orange County, CA', 'USA', 'Retired'],
+  ['Nguyễn Minh Hiến', 'Orange County, CA', 'USA', 'Retired', 'nguyen-minh-hien.jpg'],
   ['Nguyễn Nghi Quân', 'Oklahoma', 'USA', 'Retired',],
   ['Nguyễn Ngọc Quân', 'Sài Gòn', 'Việt Nam','Retired','nguyen-ngoc-quan-vn.jpg'],
   ['Nguyễn Ngọc Liên', 'Orange County, CA', 'USA', 'Retired', 'nguyen-ngoc-lien.jpg'],
