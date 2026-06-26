@@ -14,6 +14,15 @@ export const ALBUMS = [
   { id: 'keywest-2022', label: 'Keywest 2022' },
 ]
 
+export const videos = [
+  { id: 1, title: 'Together at Key West 2022', year: '2022', youtubeId: 'lc945o-RF4Q' },
+  { id: 2, title: 'Reunion 2019 - California', year: '2019', youtubeId: 'UsRNnrXY2nk' },
+  { id: 3, title: 'Reunion 2023 - California', year: '2023', youtubeId: 'SQxqSWbgOII' },
+  { id: 4, title: 'Reunion 2024 - California', year: '2024', youtubeId: '52SVZSZSyCM' },
+  { id: 5, title: 'Reunion 2009 (Part 1)', year: '2009', youtubeId: 'YLBCVwRnDOo' },
+  { id: 6, title: 'Reunion 2009 (Part 2)', year: '2009', youtubeId: 'nH2uS05x9rU' },
+]
+
 export const photos = [
   { id: 1, album: 'summer-fl-2026', src: '/photos/gallery/2026/memory-01.jpg', thumb: '/photos/gallery/2026/memory-01.jpg', caption: 'Summer at FL 2026', year: '2026' },
   { id: 2, album: 'summer-fl-2026', src: '/photos/gallery/2026/memory-02.jpg', thumb: '/photos/gallery/2026/memory-02.jpg', caption: 'Summer at FL 2026', year: '2026' },

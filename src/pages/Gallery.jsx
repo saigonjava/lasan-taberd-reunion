@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Lock, Eye, EyeOff, X, ChevronLeft, ChevronRight, Upload, Image } from 'lucide-react'
-import { photos, ALBUMS, GALLERY_PASSWORD } from '../data/gallery'
+import { Lock, Eye, EyeOff, X, ChevronLeft, ChevronRight, Upload, Image, Play, Film } from 'lucide-react'
+import { photos, ALBUMS, GALLERY_PASSWORD, videos } from '../data/gallery'
 
 function PasswordGate({ onUnlock }) {
   const [pw, setPw]         = useState('')
@@ -101,9 +101,34 @@ function Lightbox({ photos, index, onClose, onPrev, onNext }) {
   )
 }
 
+function VideoModal({ video, onClose }) {
+  return (
+    <div className="lightbox-overlay" onClick={onClose}>
+      <button className="absolute top-4 right-4 p-2 bg-slate-800/80 hover:bg-slate-700 rounded-xl text-white transition-all z-10" onClick={onClose}>
+        <X size={20} />
+      </button>
+      <div className="max-w-4xl w-full mx-4" onClick={e => e.stopPropagation()}>
+        <div className="aspect-video w-full rounded-2xl overflow-hidden shadow-card">
+          <iframe
+            src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1`}
+            title={video.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="w-full h-full"
+          />
+        </div>
+        <div className="mt-4 text-center">
+          <p className="text-white font-medium text-sm">{video.title}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function Gallery() {
   const [unlocked, setUnlocked]   = useState(false)
   const [lightbox, setLightbox]   = useState(null)
+  const [activeVideo, setActiveVideo] = useState(null)
   const [album, setAlbum]         = useState('all')
 
   const filtered = album === 'all' ? photos : photos.filter(p => p.album === album)
@@ -146,6 +171,40 @@ export default function Gallery() {
                 <Image size={14} className="inline mr-1.5" />Submit Photo
               </button>
             </div>
+
+            {/* Videos */}
+            {videos.length > 0 && (
+              <div className="mb-10">
+                <div className="flex items-center gap-2 mb-4">
+                  <Film size={18} className="text-sky-400" />
+                  <h2 className="text-white font-bold text-lg">Memories on Video</h2>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  {videos.map(video => (
+                    <button
+                      key={video.id}
+                      className="group relative aspect-video overflow-hidden rounded-xl border border-slate-700 hover:border-sky-400/50 transition-all cursor-pointer"
+                      onClick={() => setActiveVideo(video)}
+                    >
+                      <img
+                        src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
+                        alt={video.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                        <div className="w-12 h-12 rounded-full bg-sky-500/90 flex items-center justify-center shadow-neon">
+                          <Play size={20} className="text-white fill-white ml-0.5" />
+                        </div>
+                      </div>
+                      <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 to-transparent p-3 text-left">
+                        <p className="text-white text-xs font-medium leading-tight">{video.title}</p>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Album filter */}
             {ALBUMS.length > 1 && (
@@ -200,6 +259,11 @@ export default function Gallery() {
       {/* Lightbox */}
       {lightbox !== null && (
         <Lightbox photos={filtered} index={lightbox} onClose={closeLb} onPrev={prev} onNext={next} />
+      )}
+
+      {/* Video Modal */}
+      {activeVideo && (
+        <VideoModal video={activeVideo} onClose={() => setActiveVideo(null)} />
       )}
     </div>
   )
