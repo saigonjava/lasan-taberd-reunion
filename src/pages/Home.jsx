@@ -5,6 +5,8 @@ import AnnouncementBanner from '../components/layout/AnnouncementBanner'
 import BirthdayBanner from '../components/layout/BirthdayBanner'
 
 const EVENT_DATE = '2026-10-24T18:00:00'
+// Bump this date string any time Reunion2026_list.pdf is updated, to force browsers/CDN to fetch the new version.
+const REGISTERED_LIST_VERSION = '2026-06-27'
 
 function CountdownBox({ value, label }) {
   return (
@@ -129,7 +131,7 @@ export default function Home() {
               Secure Your Spot
             </Link>
             <a
-              href="/Reunion2026_list.pdf"
+              href={`/Reunion2026_list.pdf?v=${REGISTERED_LIST_VERSION}`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-transparent border border-slate-600 hover:border-sky-400/60 text-slate-300 hover:text-white font-semibold rounded-xl transition-all text-sm sm:text-base hover:bg-sky-400/5"
