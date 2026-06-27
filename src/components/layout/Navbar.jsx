@@ -9,6 +9,7 @@ const links = [
   { to: '/gallery',   label: 'Gallery' },
   { to: '/forum',     label: 'Forum' },
   { to: '/yearbook',  label: 'Yearbook' },
+  { to: '/memoriam',   label: 'In Memoriam' },
 ]
 
 export default function Navbar() {
