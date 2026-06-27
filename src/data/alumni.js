@@ -114,7 +114,7 @@ const RAW = [
   ['Trần Hoàn Vũ', 'Las Vegas, NV'],
   ['Trần Hữu Khải', 'Houston, TX', 'USA', 'Retired', 'tran-huu-khai.jpg'],
   ['Trần Tấn Luật ', 'Orange County, CA', 'USA', 'Retired'],
-  ['Trần Kim Khánh', 'France', 'Paris'],
+  ['Trần Kim Khánh', 'France', 'Paris', 'Retired', 'tran-kim-khanh.jpg'],
   ['Trần Long Nhi', 'Sài Gòn', 'Việt Nam'],
   ['Trần Nguyễn Đình Khánh', 'Melbourne, FL'], 
   ['Trần Nguyễn Linh Vũ', 'San Jose, CA', 'USA', 'Retired', 'tran-nguyen-linh-vu.jpg'],
