@@ -22,8 +22,15 @@ function MemoriamCard({ person }) {
 
 export default function Memoriam() {
   return (
-    <div className="bg-[#0F172A] min-h-screen pt-24 pb-20">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+    <div className="relative bg-gradient-to-b from-[#2b1d0f] via-[#1a1610] to-[#0F172A] min-h-screen pt-24 pb-20 overflow-hidden">
+      {/* Warm candlelight glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-amber-500/25 rounded-full blur-[140px] animate-glow-pulse pointer-events-none" />
+      <div className="absolute top-1/4 left-1/4 w-[450px] h-[450px] bg-orange-400/20 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 right-1/4 w-[450px] h-[450px] bg-amber-300/20 rounded-full blur-[120px] pointer-events-none" />
+      {/* Soft vignette */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,transparent_0%,#0F172A_90%)] pointer-events-none" />
+
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6">
 
         {/* Header */}
         <div className="text-center mb-14">
