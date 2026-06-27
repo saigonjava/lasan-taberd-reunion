@@ -3,17 +3,17 @@ import { memoriam } from '../data/memoriam'
 
 function MemoriamCard({ person }) {
   return (
-    <div className="bg-slate-800/40 border border-amber-200/10 rounded-2xl overflow-hidden p-6 text-center">
-      <div className="w-24 h-24 rounded-full mx-auto mb-5 overflow-hidden border-2 border-amber-200/30 bg-slate-700 flex items-center justify-center">
+    <div className="bg-slate-800/40 border border-amber-200/10 rounded-2xl overflow-hidden p-8 sm:p-10 text-center">
+      <div className="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden border-2 border-amber-200/30 bg-slate-700 flex items-center justify-center">
         {person.photo ? (
           <img src={`/photos/memoriam/${person.photo}`} alt={person.name} className="w-full h-full object-cover" />
         ) : (
-          <Flame size={28} className="text-amber-200/50" />
+          <Flame size={48} className="text-amber-200/50" />
         )}
       </div>
-      <h3 className="text-white font-bold text-lg mb-1">{person.name}</h3>
-      <p className="text-amber-200/70 text-sm tracking-wide mb-4">{person.years}</p>
-      <p className="text-slate-400 text-sm leading-relaxed italic max-w-sm mx-auto">
+      <h3 className="text-white font-bold text-xl mb-1.5">{person.name}</h3>
+      <p className="text-amber-200/70 text-base tracking-wide mb-5">{person.years}</p>
+      <p className="text-slate-400 text-base leading-relaxed italic max-w-sm mx-auto">
         "{person.tribute}"
       </p>
     </div>
