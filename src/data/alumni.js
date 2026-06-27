@@ -28,7 +28,7 @@ function bioFor(location) {
 // photo is just the filename (e.g. 'bui-duy-thien.jpg') placed in public/photos/alumni/
 const RAW = [
   // B
-  ['Bành Đình Tuấn', 'France', 'Paris', 'Dentist'],
+  ['Bành Đình Tuấn', 'France', 'Paris', 'Dentist', 'banh-dinh-tuan.jpg'],
   ['Bảo Hùng', 'Houston, TX', 'USA', 'Retired', 'bao-hung.jpg'],
   ['Bùi Duy Thiện', 'San Jose, CA', 'USA', 'Dentist', 'bui-duy-thien.jpg'],
   ['Bùi Đức Tiến', 'Sydney', 'Australia', 'Retired', 'bui-duc-tien.jpg'],
