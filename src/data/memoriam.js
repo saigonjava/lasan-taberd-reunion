@@ -31,7 +31,7 @@ export const memoriam = [
   {
     id: 4,
     name: 'Nguyen Thanh Long',
-    years: '1958 - 2006',
+    years: '1958 - 2008',
     classYear: 'Class 9/1 (73/74)',
     location: 'Saigon, Vietnam',
     photo: '',
