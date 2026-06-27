@@ -62,6 +62,7 @@ export default function Footer() {
                 { to: '/gallery',   label: 'Photo Gallery' },
                 { to: '/forum',     label: 'Message Board' },
                 { to: '/yearbook',  label: 'Yearbook' },
+                { to: '/memoriam',  label: 'In Memoriam' },
               ].map(({ to, label }) => (
                 <li key={to}>
                   <Link to={to} className="text-slate-400 hover:text-sky-400 text-sm transition-colors">

@@ -8,6 +8,7 @@ import RSVP from './pages/RSVP'
 import Gallery from './pages/Gallery'
 import Forum from './pages/Forum'
 import Yearbook from './pages/Yearbook'
+import Memoriam from './pages/Memoriam'
 import { db } from './lib/firebase'
 import { doc, setDoc, increment } from 'firebase/firestore'
 
@@ -28,6 +29,7 @@ export default function App() {
             <Route path="/gallery"   element={<Gallery />} />
             <Route path="/forum"     element={<Forum />} />
             <Route path="/yearbook"  element={<Yearbook />} />
+            <Route path="/memoriam"  element={<Memoriam />} />
           </Routes>
         </main>
         <Footer />
