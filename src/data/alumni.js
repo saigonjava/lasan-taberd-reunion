@@ -127,7 +127,8 @@ const RAW = [
   ['Võ Phú Hải', 'Sài Gòn', 'Việt Nam'],
   ['Võ Tiến Dũng', 'Dallas, Texas'],
   ['Võ Văn Hòa', 'Sài Gòn', 'Việt Nam'],
-  ['Vũ Hán Linh', 'France', 'Paris'],
+  ['Vũ Hán Linh', 'France', 'Paris',],
+  ['Vũ Huy Thịnh', "France", 'Paris',], 
   ['Vũ Quốc Hưng', 'Virginia, VA', 'USA', 'Retired'],
   ['Vũ Xuân Đạt', 'Fairfax, VA', 'USA', 'Retired', 'vu-xuan-dat.jpg'],
 ]

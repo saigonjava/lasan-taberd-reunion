@@ -133,3 +133,16 @@ Notes:
     Steps 2 and 3 are independent — deploying to Cloudflare makes the site live; pushing to GitHub just saves the code/history. You can do either first, but doing both keeps everything in sync.
 
 ##  If you're using GitHub Desktop instead of these git commands, just do: stage/review changes → write a commit summary → Commit to master → Push origin, same as before.
+
+
+##
+# GitHub Desktop deliberately hides the raw git commands behind a simpler visual workflow — it's running them for you in the background. Here's how the GUI maps to what we've been typing in the terminal:
+##
+
+# Terminal command	GitHub Desktop equivalent
+1. git add -A	Happens automatically — any changed file just shows up checked in the Changes list (left panel)
+2. git commit -m "..."	Type your message in the Summary box at the bottom → click "Commit to master"
+3. git push	After committing, the top bar changes to a "Push origin" button — click that
+4. git pull / git fetch	The "Fetch origin" button (top right, what you see in the screenshot)
+5. git log	The History tab (next to "Changes")
+6. git diff	Click any file in the Changes list — it shows the diff on the right
