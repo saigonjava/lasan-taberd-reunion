@@ -5,7 +5,7 @@ export const memoriam = [
     id: 1,
     name: 'Tony Long Nguyen',
     years: '1969 - 2026',
-    photo: null,
+    photo: 'tony-long-nguyen.jpg',
     tribute: 'A faithful friend and kindred spirit. The world is a little quieter without you here.',
   },
 ]
