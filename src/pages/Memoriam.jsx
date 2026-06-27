@@ -12,7 +12,12 @@ function MemoriamCard({ person }) {
         )}
       </div>
       <h3 className="text-white font-bold text-xl mb-1.5">{person.name}</h3>
-      <p className="text-amber-200/70 text-base tracking-wide mb-5">{person.years}</p>
+      <p className="text-amber-200/70 text-base tracking-wide mb-1.5">{person.years}</p>
+      {(person.classYear || person.location) && (
+        <p className="text-slate-400 font-semibold text-sm tracking-wide mb-5">
+          {[person.classYear, person.location].filter(Boolean).join(' · ')}
+        </p>
+      )}
       <p className="text-slate-400 text-base leading-relaxed italic max-w-sm mx-auto">
         "{person.tribute}"
       </p>

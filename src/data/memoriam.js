@@ -5,6 +5,8 @@ export const memoriam = [
     id: 1,
     name: 'Tony Long Nguyen',
     years: '1969 - 2026',
+    classYear: null,
+    location: 'Chicago, Illinois',
     photo: 'tony-long-nguyen.jpg',
     tribute: 'Thank you for every laugh and memory.',
   },
@@ -12,6 +14,8 @@ export const memoriam = [
     id: 2,
     name: 'Michael Tuan Doan',
     years: '1958 - 2016',
+    classYear: null,
+    location: 'Chicago, Illinois',
     photo: 'michael-tuan-doan.jpg',
     tribute: 'Gone but not forgotten.',
   },
@@ -19,6 +23,8 @@ export const memoriam = [
     id: 3,
     name: 'Le Tan Tai',
     years: '1958 - 2024',
+    classYear: 'Class 9/7 (73/74)',
+    location: 'Nice, France',
     photo: 'le-tan-tai.jpg',
     tribute: 'Forever in our hearts, your laughter and kindness will be remembered by all who knew you.',
   },
@@ -26,6 +32,8 @@ export const memoriam = [
     id: 4,
     name: 'Nguyen Thanh Long',
     years: '1958 - 2006',
+    classYear: 'Class 9/1 (73/74)',
+    location: 'Saigon, Vietnam',
     photo: '',
     tribute: 'A true friend is never forgotten.',
   },
@@ -33,19 +41,18 @@ export const memoriam = [
     id: 5,
     name: 'Hong Thao Tri Ngo Phuong',
     years: '1958 - 2010',
+    classYear: 'Class 8/5 (72/73)',
+    location: 'Saigon, Vietnam',
     photo: '',
     tribute: 'In loving memory and cherished thoughts.',
   },
   {
     id: 6,
     name: 'Nguyen Trong Tam',
-    years: '1958 - 2012',
+    years: '1958 - 2008',
+    classYear: 'Class 9/4 (73/74)',
+    location: 'Fairfax, Virginia',
     photo: '',
     tribute: 'Be loved friend and remembered.',
   },
-
-
-
 ]
-
-
