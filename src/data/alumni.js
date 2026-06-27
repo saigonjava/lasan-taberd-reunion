@@ -81,7 +81,7 @@ const RAW = [
   ['Nguyễn Ngọc Quân', 'Sài Gòn', 'Việt Nam','Retired','nguyen-ngoc-quan-vn.jpg'],
   ['Nguyễn Ngọc Liên', 'Orange County, CA', 'USA', 'Retired', 'nguyen-ngoc-lien.jpg'],
   ['Nguyễn Ngọc Trang', 'Sài Gòn', 'Việt Nam'],
-  ['Nguyễn Nhựt Nam', 'France', 'Paris'],
+  ['Nguyễn Nhựt Nam', 'France', 'Paris', 'Retired', 'nguyen-nhut-nam.jpg'],
   ['Nguyễn Phúc Vĩnh Thuần', 'Orange County, CA'],
   ['Nguyễn Quang Vinh', 'Orlando, FL', 'USA', 'Retired', 'nguyen-quang-vinh.jpg'],
   ['Nguyễn Tiến Dũng', 'Orange County, CA', 'USA', 'Retired', 'nguyen-tien-dung.jpg'],
@@ -129,7 +129,7 @@ const RAW = [
   ['Võ Tiến Dũng', 'Dallas, Texas'],
   ['Võ Văn Hòa', 'Sài Gòn', 'Việt Nam'],
   ['Vũ Hán Linh', 'France', 'Paris',],
-  ['Vũ Huy Thịnh', "France", 'Paris',], 
+  ['Vũ Huy Thịnh', "France", 'Paris','Retired', 'vu-huy-thinh.jpg'], 
   ['Vũ Quốc Hưng', 'Virginia, VA', 'USA', 'Retired'],
   ['Vũ Xuân Đạt', 'Fairfax, VA', 'USA', 'Retired', 'vu-xuan-dat.jpg'],
 ]
