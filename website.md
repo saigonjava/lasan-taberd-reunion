@@ -1,5 +1,48 @@
 # Lasan Taberd Class 65~76 — Reunion Website
 
+## Folder Structure
+
+```
+reunion/
+├── index.html              ← page shell, fonts (Inter, Cormorant Garamond, Dancing Script)
+├── package.json / vite.config.js / tailwind.config.js / postcss.config.js
+├── website.md              ← this file
+│
+├── public/
+│   ├── _headers             ← Cloudflare Pages headers (PDF inline display)
+│   ├── Reunion2026_list.pdf ← registered classmates list
+│   └── photos/
+│       ├── alumni/           ← classmate profile photos (Directory page)
+│       ├── memoriam/          ← In Memoriam page photos
+│       └── gallery/            ← event photos, one folder per year/album
+│           (2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, keywest-2022, summer-fl-2018)
+│
+└── src/
+    ├── App.jsx               ← routes (Home, Directory, RSVP, Gallery, Forum, Yearbook, Memoriam)
+    ├── main.jsx / index.css
+    ├── lib/firebase.js       ← Firestore config (forum posts, visit counter)
+    │
+    ├── pages/                 ← one file per route
+    │   Home.jsx, Directory.jsx, RSVP.jsx, Gallery.jsx, Forum.jsx,
+    │   Yearbook.jsx, Memoriam.jsx, HomePostReunion.draft.jsx (unused post-reunion draft)
+    │
+    ├── components/
+    │   ContactModal.jsx, PhotoModal.jsx
+    │   layout/  → Navbar.jsx, Footer.jsx, AnnouncementBanner.jsx, BirthdayBanner.jsx
+    │
+    ├── data/                   ← editable content, no code changes needed
+    │   alumni.js     → classmate directory entries (tuple format documented inline)
+    │   birthdays.js  → birthday banner data
+    │   memoriam.js   → In Memoriam entries
+    │   gallery.js    → photo albums + YouTube video links
+    │   forum.js      → forum categories
+    │   yearbook.js   → yearbook page data
+    │
+    └── hooks/useCountdown.js  ← homepage countdown timer
+```
+
+> A few stray unused files sit in `public/` root (some `Resized_*.JPEG`, a `Screenshot...heic`) — leftover, not referenced by any code, safe to ignore or delete.
+
 ## Dev Server
 
 **Start the local development server:**

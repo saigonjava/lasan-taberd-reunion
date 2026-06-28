@@ -42,6 +42,7 @@ const RAW = [
   ['Đặng Trường Sơn', 'Sài Gòn', 'Việt Nam', 'Retired'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
   ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'DDS', 'duong-quoc-vu.jpg'],
+  ['Dương Văn Hinh', 'San Jose, CA', 'USA', 'Retired'],
   // H
   ['Hoàng Đức Tường', 'San Jose, CA', 'USA', 'Retired', 'hoang-duc-tuong.jpg'],
   ['Hoàng Khôi', 'Las Vegas, NV', 'USA', 'Retired', 'hoang-khoi.jpg'],
@@ -61,7 +62,7 @@ const RAW = [
   ['Lương Huy Tuấn', 'Montreal', 'Canada'],
   ['Lương Thống Nhất', 'Sydney', 'Australia'],
   // N
-  ['Ngô van Thịnh', 'Orange County, CA'],
+  ['Ngô Duy Thịnh', 'Orange County, CA'],
   ['Nguyễn Bá Luật', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-ba-luat-vn.jpg'],
   ['Nguyễn Công Danh', 'Orlando, FL'],
   ['Nguyễn Đắc Bình', 'San Jose, CA', 'USA', 'Retired', 'nguyen-dac-binh.jpg'],
@@ -93,6 +94,7 @@ const RAW = [
   ['Nguyễn Chí Hưng ', 'San Jose, CA', 'USA', 'Retired', 'nguyen-chi-hung.jpg'],
   ['Nguyễn Minh Hoàng', 'France', 'Paris', 'Retired'],
   ['Nguyễn Việt Hoàng ', 'France', 'Paris', 'Retired'],
+  ['Nguyễn Vũ Hoàng', 'Louisana, LA', 'USA', 'Retired', 'nguyen-vu-hoang.jpg'],
   // P
   ['Phan Duc Tri', 'France', 'Paris'],
   ['Phan Hữu Tài', 'Chicago, IL', 'USA', 'Retired', 'phan-huu-tai.jpg'],
@@ -107,10 +109,10 @@ const RAW = [
   ['Phùng Ký', 'Las Vegas, NV', 'USA', 'Retired', 'phung-ky.jpg'],
   // T
   ['Tạ Chiến Thắng', 'Orange County, CA', 'USA', 'Retired', 'ta-chien-thang.jpg'],
-  ['Tạ Thanh Hòa', 'Orange County, CA'],
-  ['Tạ Thanh Vũ', 'San Francisco, CA'],
+  ['Tạ Thanh Hòa', 'Orange County, CA', 'USA', 'Retired',],
+  ['Tạ Thanh Vũ', 'San Francisco, CA', 'USA', 'Retired', 'ta-thanh-vu.jpg'],
   ['Thái Phi Giao', 'Houston, TX'],
-  ['Tô Tiến Long', 'Montreal', 'Canada', 'Retired', 'to-tien-long.jpg'],
+  ['Tôn Tiến Long', 'Montreal', 'Canada', 'Retired', 'to-tien-long.jpg'],
   ['Trần Anh Tuấn', 'Sài Gòn', 'Việt Nam', 'Retired', 'tran-anh-tuan-vn.jpg'],
   ['Trần Hoàn Vũ', 'Las Vegas, NV'],
   ['Trần Hữu Khải', 'Houston, TX', 'USA', 'Retired', 'tran-huu-khai.jpg'],

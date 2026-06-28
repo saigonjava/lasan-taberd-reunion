@@ -55,4 +55,32 @@ export const memoriam = [
     photo: '',
     tribute: 'Be loved friend and remembered.',
   },
+  {
+    id: 7,
+    name: 'Mai công Viển',
+    years: '1958 - 2016',
+    classYear: 'Class 9/4 (73/74)',
+    location: 'Montreal, Canada',
+    photo: '',
+    tribute: 'Always in our hearts. Rest in peace.',
+  },
+  {
+    id: 7,
+    name: 'Nguyễn Bá Đông',
+    years: '1958 - 2019',
+    classYear: 'Class 8/4 (72/73)',
+    location: 'Paris, France',
+    photo: null,
+    tribute: 'Rest in peace.Your memory will always be cherished.',
+  },
+  {
+    id: 7,
+    name: 'Trần Việt Cường',
+    years: '1958 - 2024',
+    classYear: null,
+    location: 'Orange County, California',
+    photo: '',
+    tribute: 'RIP. You will be missed.',
+  },
+  
 ]
