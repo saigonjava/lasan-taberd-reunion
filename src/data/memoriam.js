@@ -70,7 +70,7 @@ export const memoriam = [
     years: '1958 - 2019',
     classYear: 'Class 8/4 (72/73)',
     location: 'Paris, France',
-    photo: null,
+    photo: 'nguyen-ba-dong.jpg',
     tribute: 'Rest in peace.Your memory will always be cherished.',
   },
   {
