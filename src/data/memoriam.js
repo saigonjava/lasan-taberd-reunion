@@ -60,7 +60,7 @@ export const memoriam = [
     name: 'Mai công Viển',
     years: '1958 - 2016',
     classYear: 'Class 9/4 (73/74)',
-    location: 'Montreal, Canada',
+    location: 'San Jose, California',
     photo: '',
     tribute: 'Always in our hearts. Rest in peace.',
   },
