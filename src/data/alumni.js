@@ -39,7 +39,7 @@ const RAW = [
   // Đ
   ['Đặng Thanh Liêm', 'France', 'Paris', 'Retired', 'dang-thanh-liem.jpg'],
   ['Đặng Tùng Lâm', 'Sài Gòn', 'Việt Nam', 'Retired'],
-  ['Đặng Trường Sơn', 'Sài Gòn', 'Việt Nam', 'Retired'],
+  ['Đặng Trường Sơn', 'Sài Gòn', 'Việt Nam', 'Retired', 'dang-truong-son.jpg'],
   ['Đỗ Thanh Sơn', 'Orange County, CA'],
   ['Dương Quốc Vũ', 'Orange County, CA', 'USA', 'DDS', 'duong-quoc-vu.jpg'],
   ['Dương Văn Hinh', 'San Jose, CA', 'USA', 'Retired', 'duong-van-hinh.jpg'],

@@ -12,6 +12,7 @@ export const ALBUMS = [
   { id: '2018', label: 'Reunion 2018' },
   { id: '2017', label: 'Reunion 2017' },
   { id: 'keywest-2022', label: 'Keywest 2022' },
+  { id: 'vn-classmates', label: 'VN Classmates' },
 ]
 
 export const videos = [
@@ -626,6 +627,7 @@ export const photos = [
   { id: 603, album: '2025', src: '/photos/gallery/2025/memory-23.jpg', thumb: '/photos/gallery/2025/memory-23.jpg', caption: 'Reunion 2025', year: '2025' },
   { id: 604, album: '2025', src: '/photos/gallery/2025/memory-24.jpg', thumb: '/photos/gallery/2025/memory-24.jpg', caption: 'Reunion 2025', year: '2025' },
   { id: 605, album: '2025', src: '/photos/gallery/2025/memory-25.jpg', thumb: '/photos/gallery/2025/memory-25.jpg', caption: 'Reunion 2025', year: '2025' },
+  { id: 606, album: 'vn-classmates', src: '/photos/gallery/vn-classmates/vn-classmates-01.jpg', thumb: '/photos/gallery/vn-classmates/vn-classmates-01.jpg', caption: 'VN Classmates', year: '2026' },
 ]
 
 export const GALLERY_PASSWORD = 'taberd2026'
