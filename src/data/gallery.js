@@ -628,6 +628,8 @@ export const photos = [
   { id: 604, album: '2025', src: '/photos/gallery/2025/memory-24.jpg', thumb: '/photos/gallery/2025/memory-24.jpg', caption: 'Reunion 2025', year: '2025' },
   { id: 605, album: '2025', src: '/photos/gallery/2025/memory-25.jpg', thumb: '/photos/gallery/2025/memory-25.jpg', caption: 'Reunion 2025', year: '2025' },
   { id: 606, album: 'vn-classmates', src: '/photos/gallery/vn-classmates/vn-classmates-01.jpg', thumb: '/photos/gallery/vn-classmates/vn-classmates-01.jpg', caption: 'VN Classmates', year: '2026' },
+  { id: 607, album: 'vn-classmates', src: '/photos/gallery/vn-classmates/vn-classmates-02.jpg', thumb: '/photos/gallery/vn-classmates/vn-classmates-02.jpg', caption: 'VN Classmates', year: '2026' },
+  { id: 608, album: 'vn-classmates', src: '/photos/gallery/vn-classmates/vn-classmates-03.jpeg', thumb: '/photos/gallery/vn-classmates/vn-classmates-03.jpeg', caption: 'VN Classmates', year: '2026' },
 ]
 
 export const GALLERY_PASSWORD = 'taberd2026'
