@@ -92,7 +92,7 @@ const RAW = [
   ['Nguyễn Xuân Sơn', 'Portland, OR'],
   ['Nguyễn thái Hoàng', 'San Jose, CA', 'USA', 'Retired', 'nguyen-thai-hoang.jpg'],
   ['Nguyễn Chí Hưng ', 'San Jose, CA', 'USA', 'Retired', 'nguyen-chi-hung.jpg'],
-  ['Nguyễn Minh Hoàng', 'France', 'Paris', 'Retired'],
+  ['Nguyễn Minh Hoàng', 'France', 'Paris', 'Retired', 'nguyen-minh-hoang.jpg'],
   ['Nguyễn Việt Hoàng ', 'France', 'Paris', 'Retired'],
   ['Nguyễn Vũ Hoàng', 'Louisana, LA', 'USA', 'Retired', 'nguyen-vu-hoang.jpg'],
   // P
