@@ -130,7 +130,7 @@ const RAW = [
   ['Võ Phú Hải', 'Sài Gòn', 'Việt Nam','Retired', 'vo-phu-hai-vn.jpg'],
   ['Võ Tiến Dũng', 'Dallas, Texas'],
   ['Võ Văn Hòa', 'Sài Gòn', 'Việt Nam', 'Retired', 'vo-van-hoa-vn.jpg'],
-  ['Vũ Hán Linh', 'France', 'Paris',],
+  ['Vũ Hán Linh', 'France', 'Paris',,'Retired', 'vu-han-linh.jpg'],
   ['Vũ Huy Thịnh', "France", 'Paris','Retired', 'vu-huy-thinh.jpg'], 
   ['Vũ Quốc Hưng', 'Virginia, VA', 'USA', 'Retired'],
   ['Vũ Xuân Đạt', 'Fairfax, VA', 'USA', 'Retired', 'vu-xuan-dat.jpg'],
