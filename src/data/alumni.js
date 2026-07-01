@@ -64,7 +64,7 @@ const RAW = [
   // N
   ['Ngô Duy Thịnh', 'Orange County, CA'],
   ['Nguyễn Bá Luật', 'Sài Gòn', 'Việt Nam', 'Retired', 'nguyen-ba-luat-vn.jpg'],
-  ['Nguyễn Công Danh', 'Orlando, FL'],
+  ['Nguyễn Công Danh', 'Orlando, FL', 'USA', 'Retired', 'nguyen-cong-danh.jpg'],
   ['Nguyễn Đắc Bình', 'San Jose, CA', 'USA', 'Retired', 'nguyen-dac-binh.jpg'],
   ['Nguyễn Đắc Lộc', 'Seattle, WA', 'USA', 'Retired', 'nguyen-dac-loc.jpg'],
   ['Nguyễn Đình Dzinh', 'San Jose, CA', 'USA', 'Retired', 'nguyen-dinh-dzinh.jpg'],
